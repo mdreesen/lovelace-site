@@ -1,21 +1,23 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, lazy } from 'react';
 import { Parallax } from 'react-parallax';
 import 'aos/dist/aos.css';
 
 // import images
-import briannaImage from '../../images/briannaNew.jpeg';
+import briannaImage from '../images/briannaNew.webp';
 import familyImage from '../../images/familyImage.jpeg';
-// const briannaImage = lazy(() => import('../../images/briannaNew.jpeg'))
+// const briannaImage = lazy(() => import('../images/briannaNew.webp'))
 
 const About = () => {
     return (
         <div>
             <div className="about-container">
+            <Suspense fallback={<div>Loading...</div>}>
                 <Parallax className="brianna-image" bgImage={briannaImage} strength={200}>
                     <div style={{height: "70vh"}}>
                         <div className="parallax-content">About</div>
                     </div>
                 </Parallax>
+                </Suspense>
                 <Suspense fallback={<div />}>
                     <div className="about-section-two">
                         <div className="about-text-container">
