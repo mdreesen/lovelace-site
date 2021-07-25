@@ -3,7 +3,7 @@ import { Parallax } from 'react-parallax';
 import 'aos/dist/aos.css';
 
 // import images
-import briannaImage from '../images/briannaNew.webp';
+import briannaImage from '../../images/briannaNew.webp';
 import familyImage from '../../images/familyImage.jpeg';
 // const briannaImage = lazy(() => import('../images/briannaNew.webp'))
 
