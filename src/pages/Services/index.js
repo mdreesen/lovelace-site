@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 import Servicedropdown from '../../components/Servicedropdown';
 
 // import pictures
-import servicehero from '../../images/eibner-saliba-zhWUl24kf5A-unsplash.jpg';
+import servicehero from '../../images/eibner-saliba-zhWUl24kf5A-unsplash.webp';
 
 const Services = () => {
 

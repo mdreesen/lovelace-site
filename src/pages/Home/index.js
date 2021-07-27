@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import 'aos/dist/aos.css';
 
 // import pictures
-import logoImage from '../../images/logo.png';
+import logoImage from '../../images/logo.webp';
 
 function Home() {
     return (

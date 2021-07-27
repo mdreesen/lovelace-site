@@ -3,7 +3,7 @@ import { Parallax } from 'react-parallax';
 import 'aos/dist/aos.css';
 
 // import image
-import contactImage from '../../images/andre-adjahoe-tqunk3qB_yU-unsplash.jpg';
+import contactImage from '../../images/andre-adjahoe-tqunk3qB_yU-unsplash.webp';
 
 const Contact = () => {
     return (
