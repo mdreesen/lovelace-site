@@ -38,7 +38,7 @@ function Servicedropdown() {
                         <br />
                         This package will include everything in my birth doula package and everything in GM Studios’ Honey Package.
                         <br />
-                        You can see more info about her, her work and typical pricing at https://www.gmstudiosok.com.
+                        You can see more info about her, her work and typical pricing at <a href='https://www.gmstudiosok.com'>https://www.gmstudiosok.com</a>
                         <br />
                         This package starts at $1300
                         <br />
