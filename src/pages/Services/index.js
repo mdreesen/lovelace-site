@@ -22,7 +22,7 @@ const Services = () => {
                     <p>From Childbirth to lactation support to baby wearing training,
                     I am here to educate and assist expecting and postpartum mothers
                     find care and assistance with perinatal services while respecting their autonomy.
-            Bundled packages are eligible for a discount.</p>
+            Bundled packages are eligible for a discount. All services listed are available in-person, virtually or a combination of in-person and virtual visits for the same cost.</p>
                 </div>
                 <Servicedropdown />
             </div>

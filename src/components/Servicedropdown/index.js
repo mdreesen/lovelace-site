@@ -11,20 +11,37 @@ function Servicedropdown() {
                     <div className="imenu">
                         <p>
                             Establishing client relationship and determining birthing preferences and the best ways I can support you and your family before, during and after birth, as well as educating your partner on your specific coping mechanisms and your preferred comfort measures. This package includes:
-                            <br/>
+                            <br />
                             - 2 prenatal visits (up to 2 hours each visit)
-                            <br/>
+                            <br />
                             - 1 postpartum visit (2 hours)
-                            <br/>
+                            <br />
                             - Birth plan creation
-                            <br/>
+                            <br />
                             - Unlimited labor support
-                            <br/>
+                            <br />
                             - Continuous support and contact throughout pregnancy
-                            <br/>
+                            <br />
                             - 24/7 on call support starting at 38 weeks
-                            <br/>
+                            <br />
                             Starting at $850
+                        </p>
+                    </div>
+                </li>
+
+                {/* Menu item seven */}
+                <li className="item" id='BirthDoulaAndPhotography'>
+                    <a href='#BirthDoulaAndPhotography' className="menu-link">+ Birth Doula & Photography</a>
+                    <div className="imenu">
+                        <p>
+                        This is a special package in collaboration with GM Studios.
+                        <br />
+                        This package will include everything in my birth doula package and everything in GM Studios’ Honey Package.
+                        <br />
+                        You can see more info about her, her work and typical pricing at https://www.gmstudiosok.com.
+                        <br />
+                        This package starts at $1300
+                        <br />
                         </p>
                     </div>
                 </li>
@@ -35,8 +52,6 @@ function Servicedropdown() {
                     <div className="imenu">
                         <p>
                             These “labor blueprint” courses are designed for parents considering home birth, hospital birth, unmedicated birth, freebirth, or anyone curious about the physiological processes (internal processes) of labor.
-                            <br />
-                            - Childbirth Education (2 hours)
                             <br />
                             - What is physiological birth
                             <br />
@@ -56,18 +71,16 @@ function Servicedropdown() {
                     <a href='#lactationEducation' className="menu-link">+ Lactation Education</a>
                     <div className="imenu">
                         <p>
-                            (1.5 hours)
-                            <br/>
                             It’s best to know how to breastfeed your baby before they’re here. This course is designed specifically for pregnant mothers and their partner to learn how to breastfeed and what is involved in the process. This no self-exposure course can be taken alone or with a partner.
-                            <br/>
+                            <br />
                             - Proper latch techniques
-                            <br/>
+                            <br />
                             - Newborn through toddlerhood breastfeeding
-                            <br/>
+                            <br />
                             - Troubleshooting common issues
-                            <br/>
+                            <br />
                             - When and how to seek further support
-                            <br/>
+                            <br />
                             Starting at $100 (available in group and individuals settings)
                         </p>
                     </div>
@@ -112,7 +125,7 @@ function Servicedropdown() {
                     <a href='#virtualDoulaOfficeHours' className="menu-link">+ Virtual Doula Office Hours</a>
                     <div className="imenu">
                         <p>
-                            All services listed are available in-person, virtually or a combination of in-person and virtual visits for the same cost. Pay What You Can, $25 suggested.
+                            Pay What You Can, $25 suggested.
                             <br />
                             - 45 minute video call
                             <br />
@@ -123,7 +136,6 @@ function Servicedropdown() {
                         </p>
                     </div>
                 </li>
-
 
             </div>
         </div>

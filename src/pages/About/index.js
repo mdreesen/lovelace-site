@@ -3,7 +3,7 @@ import { Parallax } from 'react-parallax';
 import 'aos/dist/aos.css';
 
 // import images
-import briannaImage from '../../images/briannaNew.webp';
+import briannaImage from '../../images/briannaTwo.webp';
 import familyImage from '../../images/familyImage.webp';
 
 const About = () => {
@@ -37,7 +37,7 @@ const About = () => {
                                 as well as Uzazi Village, which prioritizes birth assistance for black and brown families.
                                 These Associations have given me unique experiences to better serve families.
                                 I’m so grateful for my supportive husband, with whom I now have 3 young children,
-                                or encouraging me to pursue my dreams. In my free time I love to spend time with my family,
+                                for encouraging me to pursue my dreams. In my free time I love to spend time with my family,
                                 homeschool my children, go to church with my family, read the Word, work on handcrafts, garden,
                                 explore the outdoors (kids and dirt were made for each other!) and continue my birth work education
                         to become a midwife one day.</p>
