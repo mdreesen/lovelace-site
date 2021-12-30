@@ -12,6 +12,25 @@ import logo from '../../images/logo.webp'
 
 const Navigation = () => {
 
+  const NavLink = [
+    {
+      "name": "Home",
+      "link": "/"
+    },
+    {
+      "name": "About",
+      "link": "/about"
+    },
+    {
+      "name": "Services",
+      "link": "/services"
+    },
+    {
+      "name": "Contact",
+      "link": "/contact"
+    }
+  ]
+
   return (
     <Suspense fallback={<div />}>
       <Navbar bg="light" expand={false}>
@@ -19,14 +38,12 @@ const Navigation = () => {
           <Navbar.Brand href="#"><img className='logo-nav' src={logo}></img></Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Nav
-          className='desktop_links'
+            className='desktop_links'
             style={{ maxHeight: '100px' }}
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
+            {
+              NavLink.map(link => <Nav.Link href={`/${link?.link}`}>{link?.name}</Nav.Link>)
+            }
           </Nav>
 
           {/* Mobile slide */}
@@ -39,8 +56,9 @@ const Navigation = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#action1">Home</Nav.Link>
-                <Nav.Link href="#action2">Link</Nav.Link>
+                {
+                  NavLink.map(link => <Nav.Link href={`/${link?.link}`}>{link?.name}</Nav.Link>)
+                }
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
