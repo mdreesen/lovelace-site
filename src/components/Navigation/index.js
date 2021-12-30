@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './nav.css';
 
 // import logo
-import logo from '../../images/logo.webp'
+import logo from '../../images/logoname.webp'
 
 const Navigation = () => {
 
@@ -35,14 +35,14 @@ const Navigation = () => {
     <Suspense fallback={<div />}>
       <Navbar bg="light" expand={false}>
         <Container>
-          <Navbar.Brand href="#"><img className='logo-nav' src={logo}></img></Navbar.Brand>
+          <Navbar.Brand href="/"><img className='logo-nav' src={logo}></img></Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Nav
             className='desktop_links'
             style={{ maxHeight: '100px' }}
           >
             {
-              NavLink.map(link => <Nav.Link href={`/${link?.link}`}>{link?.name}</Nav.Link>)
+              NavLink.map(navLink => <Nav.Link href={navLink?.link}>{navLink?.name}</Nav.Link>)
             }
           </Nav>
 
@@ -57,7 +57,7 @@ const Navigation = () => {
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 {
-                  NavLink.map(link => <Nav.Link href={`/${link?.link}`}>{link?.name}</Nav.Link>)
+                  NavLink.map(navLink => <Nav.Link href={navLink?.link}>{navLink?.name}</Nav.Link>)
                 }
               </Nav>
             </Offcanvas.Body>

@@ -56,7 +56,6 @@ const About = () => {
                                 <p className="about-text-four" data-aos="fade-in">I can’t wait to learn more about you!
                                 Please reach out to schedule a free consultation so
                         that we can better get to know each other & see if we might be a good fit.</p>
-                                {/* <Parallax className="family-image" bgImage={ familyImage } strength={500}></Parallax> */}
                                 <div className="family-image-container" data-aos="fade-in">
                                     <img alt="family" className="family-image" src={familyImage}></img>
                                 </div>
