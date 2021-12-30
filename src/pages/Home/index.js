@@ -14,13 +14,14 @@ function Home() {
                 <div className="homepage">
                     <section className="section-one">
                         <div className="image-wrapper-home">
+                            <div className='homepage-logo_container'>
                                 <img alt="logo wild beginnings" className="homepage-logo" src={logoImage}></img>
+                            </div>
                             <Parallax bgImage={heroimg} strength={200}>
                             </Parallax>
                         </div>
                     </section>
 
-                    {/* <div className="divider"></div> */}
                     <section className="section-two" data-aos="fade-in">
                         <div className="homepage-statement-container">
                             <p className="homepage-statement">The beginning of new life can be a wild time.

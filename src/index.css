@@ -16,15 +16,6 @@ body {
   background: black;
 }
 
-.footer {
-  position: sticky;
-  background: rgba(255,255,255,1);
-  height: 13vh;
-  padding: 12px;
-  color: white;
-  box-shadow: 0 8px 6px -6px black;
-}
-
 .react-parallax-content {
   position: relative;
   text-align: center;
@@ -297,31 +288,6 @@ body {
   margin: 10vh;
 }
 
-.footer-left {
-  color: black;
-  float: left;
-  margin-top: 6px;
-  text-align: center;
-}
-.icon-container-footer i:hover {
-  color: #013240;
-}
-
-.icon-container-footer {
-  display: flex;
-  color: black;
-  text-align: center;
-  justify-content: center;
-  text-align: center;
-}
-.icon-container-footer i {
-  margin-right: 10px;
-  color: black;
-  transition: 0.4s;
-}
-
-
-
 /* media queries */
 
 @media only screen and (max-width: 750px) {
@@ -343,19 +309,9 @@ body {
   .section-two {
     height: 100vh;
   }
-  .homepage-statement {
-    margin-top: -40px;
-  }
   .logo-nav {
     width: 15%;
     background-color: none;
-  }
-  .footer {
-    position: sticky;
-    background: rgba(255,255,255,1);
-    height: 18vh;
-    padding: 12px;
-    color: white;
   }
 
   .topSection {

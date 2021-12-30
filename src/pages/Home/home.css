@@ -1,6 +1,16 @@
-.homepage-logo {
-    width: 50%;
+.homepage-logo_container {
+    width: 70%;
     /* margin-top: 22%; */
+    justify-content: center;
+    z-index: 150;
+  }
+
+.homepage-logo {
+    width: 156%;
+    filter: brightness(.5);
+    /* margin-top: 22%; */
+    /* position: absolute; */
+    z-index: 150;
   }
   
   .homepage-statement-container {
@@ -30,6 +40,7 @@
   .react-parallax-bgimage {
     height: 100% !important;
     object-fit: cover;
+    opacity: 0.7;
   }
   
   .homepageImage {
@@ -66,14 +77,7 @@
   }
 
   @media only screen and (max-width: 600px) {
-
-    .homepage-logo {
-      /* margin-top: 70%; */
-    }
-    .section-two {
-      /* height: 100vh; */
-    }
-    .homepage-statement {
-      /* margin-top: -40px; */
-    }
+      .section-two {
+          height: 100vh;
+      }
   }

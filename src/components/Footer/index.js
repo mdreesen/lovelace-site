@@ -1,11 +1,11 @@
 import React, { Suspense } from 'react';
-// import { Link } from 'react-router-dom';
+import './footer.css';
 
 function Footer() {
 
     return (
         <Suspense fallback={<div/>}>
-            <nav className="footer navbar-expand-lg">
+            <div className="footer position-static">
                 {/* <a className="navbar-brand" href="#">Hidden brand</a> */}
                 <div className="footer-text">
                         <p className="footer-left">Wild Beginnings Birth // (405) 501-9515 // doulabrianna@gmail.com</p>
@@ -17,7 +17,7 @@ function Footer() {
                         <div><a href='https://www.instagram.com/doulabrianna/'><i className="fab fa-instagram fa-2x" /></a></div>
                     </ul>
                 </div>
-            </nav>
+            </div>
         </Suspense>
     );
 }

@@ -42,7 +42,7 @@ const Navigation = () => {
             style={{ maxHeight: '100px' }}
           >
             {
-              NavLink.map(navLink => <Nav.Link href={navLink?.link}>{navLink?.name}</Nav.Link>)
+              NavLink.map(navLink => <Nav.Link href={navLink?.link} key={navLink?.name}>{navLink?.name}</Nav.Link>)
             }
           </Nav>
 
@@ -57,7 +57,7 @@ const Navigation = () => {
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 {
-                  NavLink.map(navLink => <Nav.Link href={navLink?.link}>{navLink?.name}</Nav.Link>)
+                  NavLink.map(navLink => <Nav.Link href={navLink?.link} key={navLink?.name}>{navLink?.name}</Nav.Link>)
                 }
               </Nav>
             </Offcanvas.Body>
