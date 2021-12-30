@@ -8,8 +8,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Navbar CSS */
-
 .react-parallax-bgimage {
   height: 100vh;
 }
@@ -27,75 +25,6 @@ body {
   margin-top: 30%;
   padding: 30px;
   text-align: center;
-}
-
-.navbar {
-  position: relative;
-  flex-wrap: wrap;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  width: 100%;
-  font-size: 2rem;
-  position: fixed;
-  transition: 0.4s;
-  background-color: #013240;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  z-index: 100;
-}
-
-.logo-nav {
-  width: 10%;
-}
-
-.nav-link {
-  color: white;
-}
-
-.scrolling-active {
-  background-color: #013240;
-  transition: 0.5s;
-  visibility: visible;
-}
-
-.scrolling-active .nav-link {
-  color: rgba(255,255,255,1);
-}
-
-.hamburger-icon {
-  color: white;
-
-}
-
-.scrolling-active .hamburger-icon {
-  color: white;
-}
-
-.navbar-nav {
-  grid-column-gap: 6rem;
-  padding-right: 0;
-  font-size: 22px;
-  margin: 5px 0px;
-  padding-left: 0;
-  letter-spacing: 5px;
-  font-weight: 400;
-
-}
-.nav-link {
-  color: rgba(255,255,255,1);
-  padding: 0px;
-}
-
-.nav-link:hover {
-  color: #013240;
-
-}
-
-.navbar-link-container {
-  text-align: center;
-  justify-content: center;
 }
 
 .footer {

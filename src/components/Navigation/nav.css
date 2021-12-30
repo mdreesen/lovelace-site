@@ -1,0 +1,44 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+  }
+
+  .navbar-nav {
+      flex-direction: row;
+  }
+
+  .navbar-toggler {
+      display: none;
+  }
+  
+  .logo-nav {
+    position: absolute;
+    width: 10vh;
+    top: 7px;
+  }
+
+  .nav-link {
+    margin: 0 5px 0 5px;
+  }
+  
+  .nav-link:hover {
+    color: #013240;
+  
+  }
+  
+  .navbar-link-container {
+    text-align: center;
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 830px) {
+    .navbar-toggler {
+        display: block;
+    }
+    .desktop_links {
+        display: none;
+    }
+    .navbar-nav {
+        flex-direction: column;
+    }
+}

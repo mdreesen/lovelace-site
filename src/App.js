@@ -9,7 +9,7 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 
 // import components
-const Navbar = lazy(() => import('./components/Navbar'))
+const Navigation = lazy(() => import('./components/Navigation'))
 const Footer = lazy(() => import('./components/Footer'))
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
     <Router>
       <div className="App">
         <Suspense fallback={<div />}>
-          <Navbar />
+          <Navigation />
         </Suspense>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
