@@ -6,7 +6,7 @@
   }
 
 .homepage-logo {
-    width: 156%;
+    width: 110%;
     filter: brightness(.5);
     /* margin-top: 22%; */
     /* position: absolute; */
@@ -18,8 +18,6 @@
     padding: 30px;
     text-align: center;
   }
-
-  /* Homepage CSS */
 
 .section-one {
     height: 100vh;
@@ -34,8 +32,13 @@
   }
 
   .react-parallax {
-      height: 100vh;
-      width: 100%;
+    height: 100vh;
+    width: 50%;
+  }
+
+  .homepage_parallax {
+    height: 100vh;
+    width: 50%;
   }
   .react-parallax-bgimage {
     height: 100% !important;
