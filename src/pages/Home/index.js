@@ -17,8 +17,7 @@ function Home() {
                             <div className='homepage-logo_container'>
                                 <img alt="logo wild beginnings" className="homepage-logo" src={logoImage}></img>
                             </div>
-                            <Parallax bgImage={heroimg} strength={200}>
-                            </Parallax>
+                            <Parallax className='homepage_parallax' bgImage={heroimg} strength={200}></Parallax>
                         </div>
                     </section>
 
