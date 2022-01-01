@@ -35,7 +35,7 @@ const Navigation = () => {
     <Suspense fallback={<div />}>
       <Navbar bg="light" expand={false}>
         <Container>
-          <Navbar.Brand href="/"><img className='logo-nav' src={logo}></img></Navbar.Brand>
+          <Navbar.Brand href="/"><img className='logo-nav' src={logo} alt=""></img></Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Nav
             className='desktop_links'

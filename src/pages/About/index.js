@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import { Parallax } from 'react-parallax';
 import 'aos/dist/aos.css';
 import './about.css';
-import fonts from '../../fonts/fonts.css'
+import '../../fonts/fonts.css'
 
 // import images
 import briannaImage from '../../images/briannaTwo.webp';

@@ -1,11 +1,11 @@
 .homepage-logo_container {
-    width: 70%;
+    width: 100vh;
     justify-content: center;
     z-index: 150;
   }
 
 .homepage-logo {
-    width: 110%;
+    width: 800px;
     filter: brightness(.5);
     z-index: 150;
   }
@@ -87,6 +87,20 @@
     color: #013240;
   }
 
+  @media only screen and (max-width: 1327px) {
+    .homepage-logo_container {
+      width: 70%;
+      justify-content: center;
+      z-index: 150;
+    }
+  
+  .homepage-logo {
+      width: 110%;
+      filter: brightness(.5);
+      z-index: 150;
+    }
+  }
+
   @media only screen and (max-width: 750px) {
     .section-two {
         height: 75vh;
@@ -95,7 +109,6 @@
         align-items: center;
         margin-top: 4vh;          
       }
-
   }
 
   @media only screen and (max-width: 400px) {
