@@ -18,6 +18,11 @@
     text-decoration: none;
   }
 
+  .icon_detail {
+    display: flex;
+    align-items: center;
+  }
+
   .icon-container{
     height: 35vh;
     justify-content: space-around;

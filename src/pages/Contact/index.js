@@ -26,10 +26,10 @@ const Contact = () => {
                     Thank you, and we look forward to connecting with you!</p>
                     </div>
                     <div className='icon-container'>
-                        <div className='info'><a className='icon' href='tel:+1-405.501.9515'><i className="fas fa-mobile-alt fa-2x" /></a><span>405.501.9515</span></div>
-                        <div className='info'><a className='icon' href="mailto: doulabrianna@gmail.com"><i className="far fa-envelope fa-2x" /></a><span>doulabrianna@gmail.com</span></div>
-                        <div className='info'><a className='icon' href='https://www.facebook.com/wildbeginningsdoulacare'><i className="fab fa-facebook fa-2x" /></a><span>Wild Beginnings Birth</span></div>
-                        <div className='info'><a className='icon' href='https://www.instagram.com/doulabrianna/'><i className="fab fa-instagram fa-2x" /></a><span>@doulabrianna</span></div>
+                        <div className='info'><a className='icon' href='tel:+1-405.501.9515'><i className="fas fa-mobile-alt fa-2x" /></a><span className='icon_detail'>405.501.9515</span></div>
+                        <div className='info'><a className='icon' href="mailto: doulabrianna@gmail.com"><i className="far fa-envelope fa-2x" /></a><span className='icon_detail'>doulabrianna@gmail.com</span></div>
+                        <div className='info'><a className='icon' href='https://www.facebook.com/wildbeginningsdoulacare'><i className="fab fa-facebook fa-2x" /></a><span className='icon_detail'>Wild Beginnings Birth</span></div>
+                        <div className='info'><a className='icon' href='https://www.instagram.com/doulabrianna/'><i className="fab fa-instagram fa-2x" /></a><span className='icon_detail'>@doulabrianna</span></div>
                     </div>
                 </div>
             </div>
