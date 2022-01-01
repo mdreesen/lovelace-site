@@ -23,7 +23,7 @@ const ServiceAccordion = () => {
                     <br />
                     - 24/7 on call support starting at 38 weeks
                     <br />
-                    Starting at $850
+                    Standard Price $900, cash price $850
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
@@ -35,7 +35,7 @@ const ServiceAccordion = () => {
                     <br />
                     You can see more info about her, her work and typical pricing at <a href='https://www.gmstudiosok.com'>https://www.gmstudiosok.com</a>
                     <br />
-                    This package starts at $1300
+                    Standard price $1350, cash price $1300
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="3">
@@ -51,7 +51,7 @@ const ServiceAccordion = () => {
                     <br />
                     - Q&amp; A at the end of each class
                     <br />
-                    Starting at $175  (available in group &amp; individual settings)
+                    Standard price $140, cash price $125  (available in group &amp; individual settings)
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="5">
@@ -67,7 +67,7 @@ const ServiceAccordion = () => {
                     <br />
                     - When and how to seek further support
                     <br />
-                    Starting at $100 (available in group and individuals settings)
+                    Standard price $115, cash price $100 (available in group and individuals settings)
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="6">
