@@ -8,7 +8,7 @@
       display: flex;
       text-align: center;
       align-items: center;
-      background: black;
+      background: #B88746;
   }
 
   .hero_title {
@@ -17,8 +17,9 @@
 
   .title {
     color: white;
-    font-size: 800%;
-
+    font-size: 25vh;
+    position: absolute;
+    right: 147px;
   }
 
 .homepage-logo {
@@ -57,7 +58,7 @@
 
   .react-parallax {
     height: 100vh;
-    width: 50%;
+    width: 80%;
   }
 
   .homepage_parallax {
@@ -67,7 +68,7 @@
   .react-parallax-bgimage {
     height: 100vh !important;
     object-fit: cover;
-    /* opacity: 0.7; */
+    top: 34px;    
   }
   
   .homepageImage {
@@ -155,6 +156,11 @@
         margin-top: 4vh;          
       }
 
+      .title {
+        font-size: 15vh;
+        right: 90px;
+      }
+
   }
 
   @media only screen and (max-width: 400px) {
@@ -167,5 +173,9 @@
         text-align: center;
         border-top: solid 1px;
         width: 80%;
+      }
+      .title {
+        font-size: 15vh;
+        right: 90px;
       }
   }
