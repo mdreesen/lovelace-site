@@ -1,19 +1,22 @@
 import React, { Suspense } from 'react';
 import { Parallax } from 'react-parallax';
 import 'aos/dist/aos.css';
+import './contact.css';
+import '../../fonts/fonts.css';
 
 // import image
-import contactImage from '../../images/andre-adjahoe-tqunk3qB_yU-unsplash.webp';
+import contactImage from '../../images/allison-wopata-4qt6g8Aabcw-unsplash.jpg';
 
 const Contact = () => {
     return (
         <Suspense fallback={<div />}>
             <div>
-                <Parallax className="contact-image" bgImage={contactImage} strength={200}>
-                <div style={{height: "70vh"}}>
-                        <div className="parallax-content">Contact</div>
+            <div className='hero_section'>
+                    <Parallax className="brianna-image" bgImage={contactImage} strength={200}></Parallax>
+                    <div className='hero_title'>
+                        <h1 className='contact_title'>Contact</h1>
                     </div>
-                </Parallax>
+                </div>
 
                 <div className="contact-content-container" data-aos="fade-in">
                     <div className="contact-text-container">
@@ -23,10 +26,10 @@ const Contact = () => {
                     Thank you, and we look forward to connecting with you!</p>
                     </div>
                     <div className='icon-container'>
-                        <div><a href='tel:+1-405.501.9515'><i className="fas fa-mobile-alt fa-2x" /><span>405.501.9515</span></a></div>
-                        <div><a href="mailto: doulabrianna@gmail.com"><i className="far fa-envelope fa-2x" /><span>doulabrianna@gmail.com</span></a></div>
-                        <div><a href='https://www.facebook.com/wildbeginningsdoulacare'><i className="fab fa-facebook fa-2x" /><span>Wild Beginnings Birth</span></a></div>
-                        <div><a href='https://www.instagram.com/doulabrianna/'><i className="fab fa-instagram fa-2x" /><span>@doulabrianna</span></a></div>
+                        <div className='info'><a className='icon' href='tel:+1-405.501.9515'><i className="fas fa-mobile-alt fa-2x" /></a><span>405.501.9515</span></div>
+                        <div className='info'><a className='icon' href="mailto: doulabrianna@gmail.com"><i className="far fa-envelope fa-2x" /></a><span>doulabrianna@gmail.com</span></div>
+                        <div className='info'><a className='icon' href='https://www.facebook.com/wildbeginningsdoulacare'><i className="fab fa-facebook fa-2x" /></a><span>Wild Beginnings Birth</span></div>
+                        <div className='info'><a className='icon' href='https://www.instagram.com/doulabrianna/'><i className="fab fa-instagram fa-2x" /></a><span>@doulabrianna</span></div>
                     </div>
                 </div>
             </div>

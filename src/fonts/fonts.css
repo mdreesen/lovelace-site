@@ -18,7 +18,10 @@
  }
 }
 
-.title {
+.title,
+.about_title,
+.services_title,
+.contact_title {
     /* font-family: "RecordaScript"; */
     font-family: "Prestige Signature Script";
 }

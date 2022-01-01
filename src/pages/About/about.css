@@ -15,7 +15,7 @@
     width: 50%;
   }
 
-  .title {
+  .about_title {
     color: white;
     font-size: 25vh;
     position: absolute;
@@ -26,18 +26,6 @@
     width: 110%;
     filter: brightness(.5);
     z-index: 150;
-  }
-  
-  .homepage-statement-container {
-    padding: 15px;
-    text-align: center;
-    border-top: solid 1px;
-    width: 80%;
-  }
-
-  .homepage-statement {
-    font-weight: 300;
-    font-size: 20px;
   }
 
 .section-one {
@@ -117,6 +105,8 @@
   .qualification-container {
     padding-left: 20px;
     margin: 20px 0px;
+    border-bottom: solid 1px;
+    padding-bottom: 30px;
   }
   .qualification {
     text-align: left;
@@ -124,17 +114,27 @@
   .about-text-one {
     padding: 0px 20px 0px 20px;
     text-align: left;
+    font-weight: 300;
+    font-size: 20px;
   }
   .about-text-two {
     padding: 0px 20px 0px 20px;
     text-align: left;
-  }.about-text-three {
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .about-text-three {
     padding: 0px 20px 0px 20px;
     text-align: left;
-  }.about-text-four {
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .about-text-four {
     padding: 0px 20px 30px 20px;
     text-align: left;
     margin: 0px;
+    font-weight: 300;
+    font-size: 20px;
   }
   
   .family-image-container {
@@ -156,11 +156,10 @@
         margin-top: 4vh;          
       }
 
-      .title {
+      .about_title {
         font-size: 15vh;
         right: 90px;
       }
-
   }
 
   @media only screen and (max-width: 400px) {
@@ -174,7 +173,7 @@
         border-top: solid 1px;
         width: 80%;
       }
-      .title {
+      .about_title {
         font-size: 15vh;
         right: 90px;
       }
