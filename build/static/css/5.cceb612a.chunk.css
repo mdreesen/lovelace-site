@@ -1,0 +1,2 @@
+.navbar{position:fixed;width:100%;z-index:200}.navbar-nav{-webkit-flex-direction:row;flex-direction:row}.navbar-toggler{display:none}.logo-nav{position:absolute;width:12vh;top:7px}.nav-link{margin:0 5px;color:#000}.nav-link:hover{color:#013240}.navbar-link-container{text-align:center;-webkit-justify-content:center;justify-content:center}@media only screen and (max-width:830px){.navbar-toggler{display:block}.desktop_links{display:none}.navbar-nav{-webkit-flex-direction:column;flex-direction:column}}
+/*# sourceMappingURL=5.cceb612a.chunk.css.map */
