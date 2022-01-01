@@ -19,13 +19,6 @@
 .section-one {
     height: 100vh;
   }
-
-  .section-two {
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   
   .imgContainer {
     justify-content: center;
@@ -136,14 +129,6 @@
   }
 
   @media only screen and (max-width: 750px) {
-    .section-two {
-        height: 75vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 4vh;          
-      }
-
       .about_title {
         font-size: 15vh;
         right: 90px;
@@ -151,16 +136,6 @@
   }
 
   @media only screen and (max-width: 400px) {
-      .section-two {
-          height: auto;
-          margin-top: 4vh;          
-      }
-      .homepage-statement-container {
-        padding: 15px 0 0 0;
-        text-align: center;
-        border-top: solid 1px;
-        width: 80%;
-      }
       .about_title {
         font-size: 15vh;
         right: 90px;

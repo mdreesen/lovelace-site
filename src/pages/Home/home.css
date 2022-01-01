@@ -113,8 +113,9 @@
 
   @media only screen and (max-width: 400px) {
       .section-two {
+        height: 100vh;
           height: auto;
-          margin-top: 4vh;          
+          margin-top: 8vh;          
       }
       .homepage-statement-container {
         padding: 15px 0 0 0;
