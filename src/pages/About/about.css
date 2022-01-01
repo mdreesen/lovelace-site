@@ -1,0 +1,168 @@
+    .hero_section {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      background: #B88746;
+  }
+
+  .hero_title {
+    width: 50%;
+  }
+
+  .about_title {
+    color: white;
+    font-size: 25vh;
+    position: absolute;
+    right: 147px;
+  }
+
+.section-one {
+    height: 100vh;
+  }
+
+  .section-two {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgContainer {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .react-parallax {
+    height: 100vh;
+    width: 80%;
+  }
+
+  .homepage_parallax {
+    height: 100vh;
+    width: 50%;
+  }
+  .react-parallax-bgimage {
+    height: 100vh !important;
+    object-fit: cover;
+    top: 34px;    
+  }
+  
+  .homepageImage {
+    background-position: center;
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+  }
+  
+  .image-wrapper-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 56px;
+    height: 100vh;
+  }
+  
+  .logo-image-wrapper {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+  }
+  
+  .logo-image {
+    width: 100%;
+  }
+  
+  .mission-header {
+    border-bottom: solid;
+    color: #013240;
+  }
+
+  .about-text-container {
+    z-index: 100;
+  }
+  
+  .brianna-name-title {
+    padding: 30px 20px 30px 20px;
+    text-align: center;
+  }
+  
+  .qualification-container {
+    padding-left: 20px;
+    margin: 20px 0px;
+    border-bottom: solid 1px;
+    padding-bottom: 30px;
+  }
+  .qualification {
+    text-align: left;
+  }
+  .about-text-one {
+    padding: 0px 20px 0px 20px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .about-text-two {
+    padding: 0px 20px 0px 20px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .about-text-three {
+    padding: 0px 20px 0px 20px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .about-text-four {
+    padding: 0px 20px 30px 20px;
+    text-align: left;
+    margin: 0px;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  
+  .family-image-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+  
+  .family-image {
+    width: 50%;
+  }
+
+  @media only screen and (max-width: 750px) {
+    .section-two {
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4vh;          
+      }
+
+      .about_title {
+        font-size: 15vh;
+        right: 90px;
+      }
+  }
+
+  @media only screen and (max-width: 400px) {
+      .section-two {
+          height: auto;
+          margin-top: 4vh;          
+      }
+      .homepage-statement-container {
+        padding: 15px 0 0 0;
+        text-align: center;
+        border-top: solid 1px;
+        width: 80%;
+      }
+      .about_title {
+        font-size: 15vh;
+        right: 90px;
+      }
+  }

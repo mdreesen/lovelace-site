@@ -1,6 +1,7 @@
 .navbar {
     position: fixed;
     width: 100%;
+    z-index: 200;
   }
 
   .navbar-nav {
@@ -13,12 +14,13 @@
   
   .logo-nav {
     position: absolute;
-    width: 10vh;
+    width: 12vh;
     top: 7px;
   }
 
   .nav-link {
     margin: 0 5px 0 5px;
+    color: black;
   }
   
   .nav-link:hover {
