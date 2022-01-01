@@ -20,6 +20,7 @@
 
   .nav-link {
     margin: 0 5px 0 5px;
+    color: black;
   }
   
   .nav-link:hover {

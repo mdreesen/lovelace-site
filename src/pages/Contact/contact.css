@@ -93,4 +93,14 @@
       font-size: 15vh;
       right: 90px;
     }
+
+    .contact-text-container {
+        margin: 5vh 5vh;
+        height: 55vh;
+    }
+
+    .icon-container {
+        margin: 5vh 5vh;
+        height: 35vh;
+    }
 }
