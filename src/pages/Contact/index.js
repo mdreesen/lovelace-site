@@ -4,6 +4,8 @@ import 'aos/dist/aos.css';
 import './contact.css';
 import '../../fonts/fonts.css';
 
+import Hero from '../../components/Hero';
+
 // import image
 import contactImage from '../../images/allison-wopata-4qt6g8Aabcw-unsplash.jpg';
 
@@ -13,9 +15,7 @@ const Contact = () => {
             <div>
             <div className='hero_section'>
                     <Parallax className="brianna-image" bgImage={contactImage} strength={200}></Parallax>
-                    <div className='hero_title'>
-                        <h1 className='contact_title'>Contact</h1>
-                    </div>
+                    <Hero title="Contact" />
                 </div>
 
                 <div className="contact-content-container" data-aos="fade-in">

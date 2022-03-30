@@ -4,6 +4,8 @@ import 'aos/dist/aos.css';
 import './about.css';
 import '../../fonts/fonts.css'
 
+import Hero from '../../components/Hero';
+
 // import images
 import briannaImage from '../../images/briannaTwo.webp';
 import familyImage from '../../images/familyImage.webp';
@@ -23,9 +25,7 @@ const About = () => {
                 <Suspense fallback={<div>Loading...</div>}>
                     <div className='hero_section'>
                         <Parallax className="brianna-image" bgImage={briannaImage} strength={200}></Parallax>
-                        <div className='hero_title'>
-                            <h1 className='about_title'>About</h1>
-                        </div>
+                        <Hero title="About" />
                     </div>
                 </Suspense>
                 <Suspense fallback={<div />}>
@@ -34,9 +34,9 @@ const About = () => {
                             <div className="about-para-container" data-aos="fade-in">
                                 <h3 className="brianna-name-title">Hello, I’m Brianna Lovelace!</h3>
                                 <div className="qualification-container">
-                                {
-                                    titleArr.map(title => <h4 className="qualification">{title}</h4>)
-                                }
+                                    {
+                                        titleArr.map(title => <h4 className="qualification">{title}</h4>)
+                                    }
                                 </div>
 
                                 <p className="about-text-one" data-aos="fade-in">I have a heart to support birthing and postpartum mothers.

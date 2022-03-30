@@ -35,7 +35,7 @@ const ServiceAccordion = () => {
                     <br />
                     You can see more info about her, her work and typical pricing at <a href='https://www.gmstudiosok.com'>https://www.gmstudiosok.com</a>
                     <br />
-                    Standard price $1350, cash price $1300
+                    Standard price $1800, cash price $1700
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="3">

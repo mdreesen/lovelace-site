@@ -9,13 +9,6 @@
     width: 50%;
   }
 
-  .about_title {
-    color: white;
-    font-size: 25vh;
-    position: absolute;
-    right: 147px;
-  }
-
 .section-one {
     height: 100vh;
   }
@@ -126,18 +119,4 @@
   
   .family-image {
     width: 50%;
-  }
-
-  @media only screen and (max-width: 750px) {
-      .about_title {
-        font-size: 15vh;
-        right: 90px;
-      }
-  }
-
-  @media only screen and (max-width: 400px) {
-      .about_title {
-        font-size: 15vh;
-        right: 90px;
-      }
   }

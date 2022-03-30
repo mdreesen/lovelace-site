@@ -5,6 +5,7 @@ import './service.css';
 import '../../fonts/fonts.css'
 
 // import components
+import Hero from '../../components/Hero';
 import Accordion from '../../components/Accordion';
 
 // import pictures
@@ -17,9 +18,7 @@ const Services = () => {
             <div>
                 <div className='hero_section'>
                     <Parallax className="brianna-image" bgImage={servicehero} strength={200}></Parallax>
-                    <div className='hero_title'>
-                        <h1 className='services_title'>Services</h1>
-                    </div>
+                    <Hero title="Services" />
                 </div>
                 <div className="service-text-container" data-aos="fade-in">
                     <p>From Childbirth to lactation support to baby wearing training,

@@ -1,0 +1,34 @@
+.title_container {
+    position: relative;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    left: 35%;
+}
+
+.title {
+    color: white;
+    font-size: 25vh;
+    position: absolute;
+    right: 147px;
+    height: 35vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 750px) {
+      .title {
+        font-size: 15vh;
+        right: 90px;
+      }
+  }
+
+
+  @media only screen and (max-width: 400px) {
+    .title {
+      font-size: 15vh;
+      right: 90px;
+    }
+}
