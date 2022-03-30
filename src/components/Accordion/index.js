@@ -23,7 +23,7 @@ const ServiceAccordion = () => {
                     <br />
                     - 24/7 on call support starting at 38 weeks
                     <br />
-                    Standard Price $900, cash price $850
+                    Standard Price $1100, cash price $1000
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
@@ -106,6 +106,25 @@ const ServiceAccordion = () => {
                     - Question-focused meetings, no specific pre-research or follow up included, to keep the rate low and flexible
                     <br />
                     - Perfect for expecting mothers looking to complement their birth education or focus on a specific topic
+                </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="9">
+                <Accordion.Header>+ Additional Support</Accordion.Header>
+                <Accordion.Body>
+                <div class="section-container">
+                <h4>Prenatal</h4>
+                    Some families wish to have additional prenatal meetings to discuss topics more in depth, build rapport, etc.
+                    To accommodate this need I offer additional prenatal appointments booked individually.
+                    <br />
+                    Standard price $125, cash price $100
+                </div>
+                <div class="section-container-two">
+                <h4>Postpartum</h4>
+                    I offer postpartum doula services on a case by case situation based on client needs and my availability. 
+                    These are an hourly rate service with a minimum of 3 consecutive hours to book.
+                    <br/>
+                    Standard price $35/hr, cash price $30/hr
+                </div>
                 </Accordion.Body>
             </Accordion.Item>
         </Accordion>
