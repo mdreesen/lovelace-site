@@ -1,16 +1,15 @@
-
+import React, { Suspense } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
 import 'bootstrap/dist/css/bootstrap.css';
-import Styles from '../../styles/Nav.module.css';
+import '../../styles/Nav.module.css';
 
 // import logo
-import logo from '../../public/images/logo.webp';
 
-export default function Navigation() {
+const Navigation = () => {
 
   const NavLink = [
     {
@@ -32,9 +31,10 @@ export default function Navigation() {
   ]
 
   return (
+    <Suspense fallback={<div />}>
       <Navbar bg="light" expand={false}>
         <Container>
-          <Navbar.Brand href="/"><img className='logo-nav' src={logo} alt=""></img></Navbar.Brand>
+          <Navbar.Brand href="/"><img className='logo-nav' src='../../images/logoname.webp' alt=""></img></Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Nav
             className='desktop_links'
@@ -63,5 +63,8 @@ export default function Navigation() {
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
+    </Suspense>
   );
-};
+}
+
+export default Navigation;
