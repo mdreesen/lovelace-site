@@ -1,17 +1,16 @@
+
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import Link from 'next/link';
-import styles from '../../styles/Nav.module.css';
 
 import 'bootstrap/dist/css/bootstrap.css';
-// import './nav.css';
+import Styles from '../../styles/Nav.module.css';
 
 // import logo
-import logo from '../../public/images/logoname.webp';
+import logo from '../../public/images/logo.webp';
 
-const Navigation = () => {
+export default function Navigation() {
 
   const NavLink = [
     {
@@ -35,19 +34,19 @@ const Navigation = () => {
   return (
       <Navbar bg="light" expand={false}>
         <Container>
-          <Navbar.Brand href="/"><img className={styles.logo} src='/images/logoname.webp' alt=""></img></Navbar.Brand>
-          {/* <Navbar.Toggle aria-controls="offcanvasNavbar" /> */}
+          <Navbar.Brand href="/"><img className='logo-nav' src={logo} alt=""></img></Navbar.Brand>
+          <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Nav
             className='desktop_links'
             style={{ maxHeight: '100px' }}
           >
             {
-              NavLink.map(navLink => <Link href={navLink?.link} key={navLink?.name}>{navLink?.name}</Link>)
+              NavLink.map(navLink => <Nav.Link href={navLink?.link} key={navLink?.name}>{navLink?.name}</Nav.Link>)
             }
           </Nav>
 
           {/* Mobile slide */}
-          {/* <Navbar.Offcanvas
+          <Navbar.Offcanvas
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
             placement="end"
@@ -61,10 +60,8 @@ const Navigation = () => {
                 }
               </Nav>
             </Offcanvas.Body>
-          </Navbar.Offcanvas> */}
+          </Navbar.Offcanvas>
         </Container>
       </Navbar>
   );
-}
-
-export default Navigation;
+};

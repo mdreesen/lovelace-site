@@ -5,14 +5,16 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-      {/* <Head>
+      <Head>
         <title>Wild Beginnings</title>
-        <meta name="Wild Beginnings" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="We come ready to help families educate and advocate for themselves on this amazing journey." />
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
-      </Head> */}
+      </Head>
 
       <main className={styles.main}>
-        <Hero heroImage='homePage' alt='Wild Beginnings founder, Brianna'/>
+        <Hero heroImage='homePage' alt='Wild Beginnings founder, Brianna' />
         <section className="section-two">
           <div className="homepage-statement-container">
             <p className="homepage-statement">The beginning of new life can be a wild time.
