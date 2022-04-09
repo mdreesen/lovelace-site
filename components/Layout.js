@@ -1,6 +1,6 @@
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Navigation from './Navigation';
-import Head from 'next/head';
+import Footer from './Footer';
 
 
 export default function Layout({ children }) {
@@ -9,6 +9,8 @@ export default function Layout({ children }) {
             <Navigation />
 
             <main>{children}</main>
+
+            <Footer />
         </>
     )
 }
