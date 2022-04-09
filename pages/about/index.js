@@ -29,7 +29,7 @@ export default function About() {
                         <h3 className={styles['brianna-name-title']}>Hello, I’m Brianna Lovelace!</h3>
                         <div className={styles['qualification-container']}>
                             {
-                                titleArr.map(title => <h4 className={styles['qualification']}>{title}</h4>)
+                                titleArr.map(title => <h4 className={styles['qualification']} key={`about-title-${title}`}>{title}</h4>)
                             }
                         </div>
 
