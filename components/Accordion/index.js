@@ -1,12 +1,10 @@
-import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
-import Styles from '../../styles/Accordion.module.css';
-import './accordion.css';
+import styles from '../../styles/Accordion.module.css';
 
 const ServiceAccordion = () => {
 
     return (
-        <Accordion>
+        <Accordion className={styles['accordion']}>
             <Accordion.Item eventKey="0">
                 <Accordion.Header>+ Birth Doula</Accordion.Header>
                 <Accordion.Body>
@@ -119,7 +117,7 @@ const ServiceAccordion = () => {
                     <br />
                     Standard price $125, cash price $100
                 </div>
-                <div className={Styles.sectionContainerTwo}>
+                <div className={styles['section-container-two']}>
                 <h4>Postpartum</h4>
                     I offer postpartum doula services on a case by case situation based on client needs and my availability. 
                     These are an hourly rate service with a minimum of 3 consecutive hours to book.
