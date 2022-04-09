@@ -20,9 +20,9 @@ export default function About() {
                 <meta name="description" content="Meet Wild Beginnings family" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <section>
-                <Hero heroImage='briannaTwo' title='About' alt='Wild Beginnings founder, Brianna' />
-            </section>
+
+            <Hero heroImage='briannaTwo' title='About' alt='Wild Beginnings founder, Brianna' />
+
             <section className={styles['about-section-two']}>
                 <div className={styles['about-text-container']}>
                     <div className={styles['about-para-container']}>

@@ -1,13 +1,16 @@
-.container {
+.hero_section {
   display: flex;
   text-align: center;
   align-items: center;
   background: #B88746;
 }
 
-.react-parallax {
+.hero_title {
+  width: 50%;
+}
+
+.hero-section {
   height: 100vh;
-  width: 80%;
 }
 
 .imgContainer {
@@ -20,12 +23,52 @@
   width: 80%;
 }
 
-.homepage_parallax {
-  height: 100vh;
-  width: 50%;
-}
-.reactParallaxBgImage {
+.react-parallax-bgimage {
   height: 100vh !important;
   object-fit: cover;
   top: 34px;    
 }
+
+.title_container {
+  position: relative;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.title {
+  color: white;
+  font-size: 25vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  right: 90px;
+  height: 35vh;
+  width: 70vw;
+}
+
+@media only screen and (max-width: 750px) {
+    .title {
+      font-size: 15vh;
+      right: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .title {
+    width: 100vw;
+    font-size: 15vh;
+    right: 0px;
+  }
+}
+
+  @media only screen and (max-width: 290px) {
+      .title {
+        width: 100vw;
+        font-size: 15vh;
+        right: 15px;
+      }
+  }
