@@ -1,11 +1,10 @@
-import React, { Suspense } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
 import 'bootstrap/dist/css/bootstrap.css';
-import '../../styles/Nav.module.css';
+import styles from '../../styles/Nav.module.css';
 
 // import logo
 
@@ -31,17 +30,16 @@ const Navigation = () => {
   ]
 
   return (
-    <Suspense fallback={<div />}>
       <Navbar bg="light" expand={false}>
         <Container>
-          <Navbar.Brand href="/"><img className='logo-nav' src='../../images/logoname.webp' alt=""></img></Navbar.Brand>
-          <Navbar.Toggle aria-controls="offcanvasNavbar" />
+          <Navbar.Brand href="/"><img className={styles['logo-nav']} src='../../images/logoname.webp' alt=""></img></Navbar.Brand>
+          <Navbar.Toggle className={styles['navbar-toggler']} aria-controls="offcanvasNavbar" />
           <Nav
-            className='desktop_links'
+            className={styles['desktop_links']}
             style={{ maxHeight: '100px' }}
           >
             {
-              NavLink.map(navLink => <Nav.Link href={navLink?.link} key={navLink?.name}>{navLink?.name}</Nav.Link>)
+              NavLink.map(navLink => <Nav.Link className={styles['nav-link']} href={navLink?.link} key={navLink?.name}>{navLink?.name}</Nav.Link>)
             }
           </Nav>
 
@@ -50,20 +48,20 @@ const Navigation = () => {
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
             placement="end"
+            className={styles['navbar-toggler']}
           >
             <Offcanvas.Header closeButton>
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 {
-                  NavLink.map(navLink => <Nav.Link href={navLink?.link} key={navLink?.name}>{navLink?.name}</Nav.Link>)
+                  NavLink.map(navLink => <Nav.Link className={styles['nav-link']} href={navLink?.link} key={navLink?.name}>{navLink?.name}</Nav.Link>)
                 }
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
-    </Suspense>
   );
 }
 

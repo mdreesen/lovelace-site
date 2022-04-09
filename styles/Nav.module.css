@@ -7,15 +7,18 @@
 .navbar-nav {
     flex-direction: row;
 }
+.desktop_links {
+  flex-direction: row;
+}
 
 .navbar-toggler {
     display: none;
 }
 
-.logoNav {
+.logo-nav {
   position: absolute;
   width: 12vh;
-  top: 7px;
+  top: 1px;
 }
 
 .nav-link {
@@ -37,10 +40,10 @@
   .navbar-toggler {
       display: block;
   }
-  .desktopLinks {
+  .desktop_links {
       display: none;
   }
-  .navbar-nav {
+  /* .navbar-nav {
       flex-direction: column;
-  }
+  } */
 }
