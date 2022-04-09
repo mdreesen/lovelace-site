@@ -14,10 +14,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Hero heroImage='homePage' alt='Wild Beginnings founder, Brianna' />
-        <section className="section-two">
-          <div className="homepage-statement-container">
-            <p className="homepage-statement">The beginning of new life can be a wild time.
+        <section className={styles['section-one']}>
+          <Hero heroImage='homePage' alt='Wild Beginnings founder, Brianna' />
+        </section>
+
+        <section className={styles['section-two']}>
+          <div className={styles['homepage-statement-container']}>
+            <p className={styles['homepage-statement']}>The beginning of new life can be a wild time.
               Here at Wild Beginnings Birth we aim to support your family throughout pregnancy,
               labor and postpartum in a way that is unique to your family’s needs.
               We know (and science agrees!) that doulas are an important part of the birth team.
