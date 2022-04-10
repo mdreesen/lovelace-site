@@ -3,6 +3,8 @@ import Head from 'next/head';
 import Hero from '../../components/Hero';
 import Accordion from '../../components/Accordion';
 
+import styles from '../../styles/Services.module.css';
+
 export default function About() {
     return (
         <div>
@@ -15,7 +17,7 @@ export default function About() {
             <Hero heroImage='services' title='Services' alt='Woman breast feeding, services hero' />
 
             <section>
-            <div className="service-text-container">
+            <div className={styles['service-text-container']}>
                     <p>From Childbirth to lactation support to baby wearing training,
                         I am here to educate and assist expecting and postpartum mothers
                         find care and assistance with perinatal services while respecting their autonomy.

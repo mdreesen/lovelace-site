@@ -1,0 +1,12 @@
+.service-text-container {
+  padding: 0 20px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+
+  margin: 6vh;
+  border-bottom: 1px solid;
+  padding-bottom: 30px;
+  font-weight: 300;
+  font-size: 20px;
+}

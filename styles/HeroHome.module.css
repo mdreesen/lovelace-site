@@ -43,6 +43,12 @@
   width: 50%;
 }
 
+.react-parallax > img {
+  height: 100vh !important;
+  width: 50%;
+  object-fit: cover;
+}
+
 .homepage_parallax {
   height: 100vh;
   width: 50%;
@@ -69,7 +75,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 56px;
+  /* padding-top: 56px; */
   height: 100vh;
 }
 
