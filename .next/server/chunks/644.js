@@ -40,7 +40,7 @@ function Hero(props) {
         className: (_styles_Hero_module_css__WEBPACK_IMPORTED_MODULE_2___default().hero_section),
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_parallax__WEBPACK_IMPORTED_MODULE_1__.Parallax, {
-                className: (_styles_Hero_module_css__WEBPACK_IMPORTED_MODULE_2___default()["react-parallax"]) || (_styles_Hero_module_css__WEBPACK_IMPORTED_MODULE_2___default()["react-parallax-bgimage"]),
+                className: (_styles_Hero_module_css__WEBPACK_IMPORTED_MODULE_2___default()["react-parallax"]),
                 bgImage: `/images/${props.heroImage}.webp`,
                 alt: props.alt,
                 strength: 200
