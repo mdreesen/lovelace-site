@@ -1,8 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image'
-
 import Hero from '../../components/Hero';
-
 import styles from '../../styles/About.module.css';
 
 export default function About() {

@@ -1,7 +1,5 @@
 import Head from 'next/head';
-
 import Hero from '../../components/Hero';
-
 import styles from '../../styles/Contact.module.css';
 
 export default function About() {

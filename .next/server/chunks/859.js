@@ -2,7 +2,7 @@ exports.id = 859;
 exports.ids = [859];
 exports.modules = {
 
-/***/ 1831:
+/***/ 831:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -134,7 +134,7 @@ function updateElements(type, components) {
 
 /***/ }),
 
-/***/ 4686:
+/***/ 686:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -163,7 +163,7 @@ exports.cancelIdleCallback = cancelIdleCallback; //# sourceMappingURL=request-id
 
 /***/ }),
 
-/***/ 3573:
+/***/ 573:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -173,10 +173,10 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports.initScriptLoader = initScriptLoader;
 exports["default"] = void 0;
-var _react = _interopRequireWildcard(__webpack_require__(6689));
-var _headManagerContext = __webpack_require__(2796);
-var _headManager = __webpack_require__(1831);
-var _requestIdleCallback = __webpack_require__(4686);
+var _react = _interopRequireWildcard(__webpack_require__(689));
+var _headManagerContext = __webpack_require__(796);
+var _headManager = __webpack_require__(831);
+var _requestIdleCallback = __webpack_require__(686);
 function _defineProperty(obj, key, value) {
     if (key in obj) {
         Object.defineProperty(obj, key, {
@@ -386,7 +386,7 @@ exports["default"] = _default; //# sourceMappingURL=script.js.map
 
 /***/ }),
 
-/***/ 7081:
+/***/ 81:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -398,14 +398,14 @@ __webpack_unused_export__ = ({
 exports.Html = Html;
 exports.Main = Main;
 __webpack_unused_export__ = void 0;
-var _react = _interopRequireWildcard(__webpack_require__(6689));
-var _constants = __webpack_require__(6724);
-var _getPageFiles = __webpack_require__(4140);
-var _utils = __webpack_require__(6368);
-var _htmlescape = __webpack_require__(9716);
-var _script = _interopRequireDefault(__webpack_require__(3573));
+var _react = _interopRequireWildcard(__webpack_require__(689));
+var _constants = __webpack_require__(724);
+var _getPageFiles = __webpack_require__(140);
+var _utils = __webpack_require__(368);
+var _htmlescape = __webpack_require__(716);
+var _script = _interopRequireDefault(__webpack_require__(573));
 var _isError = _interopRequireDefault(__webpack_require__(676));
-var _htmlContext = __webpack_require__(8743);
+var _htmlContext = __webpack_require__(743);
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -976,10 +976,36 @@ function getAmpPath(ampPath, asPath) {
 
 /***/ }),
 
-/***/ 6859:
+/***/ 676:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+exports["default"] = isError;
+exports.getProperError = getProperError;
+var _isPlainObject = __webpack_require__(524);
+function isError(err) {
+    return typeof err === 'object' && err !== null && 'name' in err && 'message' in err;
+}
+function getProperError(err) {
+    if (isError(err)) {
+        return err;
+    }
+    if (false) {}
+    return new Error((0, _isPlainObject).isPlainObject(err) ? JSON.stringify(err) : err + '');
+}
+
+//# sourceMappingURL=is-error.js.map
+
+/***/ }),
+
+/***/ 859:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__(7081)
+module.exports = __webpack_require__(81)
 
 
 /***/ })

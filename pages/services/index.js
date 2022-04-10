@@ -1,8 +1,6 @@
 import Head from 'next/head';
-
 import Hero from '../../components/Hero';
 import Accordion from '../../components/Accordion';
-
 import styles from '../../styles/Services.module.css';
 
 export default function About() {

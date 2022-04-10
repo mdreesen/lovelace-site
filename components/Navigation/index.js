@@ -3,13 +3,11 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-import Link from 'next/link';
+// import Link from 'next/link';
 import Image from 'next/image';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import styles from '../../styles/Nav.module.css';
-
-// import logo
 
 const Navigation = () => {
 
@@ -36,7 +34,7 @@ const Navigation = () => {
       <Navbar className='navbar' bg="light" expand={false}>
         <Container>
           <Navbar.Brand href="/" className={styles['logo-nav']} alt='Logo image link to home'><Image src='/images/logoname.webp' width={938} height={493} alt="Wild Beginnings logo for navigation" /></Navbar.Brand>
-          <Navbar.Toggle className={styles['navbar-toggler']} aria-controls="offcanvasNavbar" alt='Mobile navigation slide out' />
+          <Navbar.Toggle className={styles['navbar-toggler']} aria-controls="offcanvasNavbar" />
           <Nav
             className={styles['desktop_links']}
             style={{ maxHeight: '100px' }}
