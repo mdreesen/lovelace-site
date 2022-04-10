@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import Hero from '../../components/Hero';
+
 import styles from '../../styles/Contact.module.css';
 
 export default function About() {
@@ -10,6 +12,8 @@ export default function About() {
                 <meta name="description" content="Contact Wild Beginnings" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+
+            <Hero heroImage='contact' title='Contact' alt='Womans belly bump, contact hero' />
 
             <section className={styles['contact-content-container']}>
                     <div className={styles['contact-text-container']}>

@@ -6,6 +6,15 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@font-face {
+  src: url('/fonts/Prestige-Signature-Script.ttf');
+  font-family: "Prestige Signature Script";
+}
+
+h1 {
+  font-family: "Prestige Signature Script";
+}
+
 a {
   color: inherit;
   text-decoration: none;

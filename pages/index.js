@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Hero from '../components/Hero';
+import HeroHome from '../components/HeroHome';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -14,9 +14,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <section className={styles['section-one']}>
-          <Hero heroImage='homePage' alt='Wild Beginnings founder, Brianna' />
-        </section>
+
+          <HeroHome heroImage='homePage' alt='Pregnant woman, landing page' />
 
         <section className={styles['section-two']}>
           <div className={styles['homepage-statement-container']}>

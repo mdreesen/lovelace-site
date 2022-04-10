@@ -1,5 +1,6 @@
 import Head from 'next/head';
 
+import Hero from '../../components/Hero';
 import Accordion from '../../components/Accordion';
 
 export default function About() {
@@ -10,6 +11,9 @@ export default function About() {
                 <meta name="description" content="Services of Wild Beginnings" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+
+            <Hero heroImage='services' title='Services' alt='Woman breast feeding, services hero' />
+
             <section>
             <div className="service-text-container">
                     <p>From Childbirth to lactation support to baby wearing training,

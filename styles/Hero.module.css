@@ -23,10 +23,9 @@
   width: 80%;
 }
 
-.react-parallax-bgimage {
+.react-parallax > img {
   height: 100vh !important;
   object-fit: cover;
-  top: 34px;    
 }
 
 .title_container {
@@ -39,6 +38,7 @@
 .title {
   color: white;
   font-size: 25vh;
+  font-family: "Prestige Signature Script";
   position: absolute;
   display: flex;
   justify-content: center;
