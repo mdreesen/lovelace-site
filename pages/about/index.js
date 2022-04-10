@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image'
 
 import Hero from '../../components/Hero';
 
@@ -26,10 +27,10 @@ export default function About() {
             <section className={styles['about-section-two']}>
                 <div className={styles['about-text-container']}>
                     <div className={styles['about-para-container']}>
-                        <h3 className={styles['brianna-name-title']}>Hello, I’m Brianna Lovelace!</h3>
+                        <h2 className={styles['brianna-name-title']}>Hello, I’m Brianna Lovelace!</h2>
                         <div className={styles['qualification-container']}>
                             {
-                                titleArr.map(title => <h4 className={styles['qualification']} key={`about-title-${title}`}>{title}</h4>)
+                                titleArr.map(title => <h3 className={styles['qualification']} key={`about-title-${title}`}>{title}</h3>)
                             }
                         </div>
 
@@ -59,8 +60,14 @@ export default function About() {
                         <p className={styles['about-text-four']}>I can’t wait to learn more about you!
                             Please reach out to schedule a free consultation so
                             that we can better get to know each other & see if we might be a good fit.</p>
-                        <div className="family-image-container">
-                            {/* <img alt="family" className="family-image" src={familyImage}></img> */}
+                        <div className={styles['family-image-container']}>
+                            <Image
+                                className={styles['family-image']}
+                                src="/images/family.webp"
+                                alt="Wild Beginnings family picture"
+                                width={963}
+                                height={642}
+                            />
                         </div>
                     </div>
                 </div>

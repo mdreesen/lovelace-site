@@ -5,6 +5,10 @@
   padding: 12px;
   color: white;
   box-shadow: 0 8px 6px -6px black;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 .footer-left {
@@ -36,5 +40,7 @@
     height: 21vh;
     padding: 12px;
     color: white;
+
+    flex-direction: column;
   }
 }

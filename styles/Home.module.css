@@ -11,7 +11,7 @@
 }
 
 .homepage-statement-container {
-  padding: 15px;
+  padding: 2.5rem 0 0 0;
   text-align: center;
   border-top: solid 1px;
   width: 80%;
@@ -118,7 +118,6 @@
         margin-top: 8vh;          
     }
     .homepage-statement-container {
-      padding: 15px 0 0 0;
       text-align: center;
       border-top: solid 1px;
       width: 80%;

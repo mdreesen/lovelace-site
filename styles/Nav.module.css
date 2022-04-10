@@ -15,7 +15,7 @@
     display: none;
 }
 
-.logo-nav {
+.navbar > .logo-nav {
   position: absolute;
   width: 12vh;
   top: 1px;
@@ -43,7 +43,4 @@
   .desktop_links {
       display: none;
   }
-  /* .navbar-nav {
-      flex-direction: column;
-  } */
 }

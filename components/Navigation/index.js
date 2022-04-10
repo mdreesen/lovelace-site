@@ -3,6 +3,9 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
+import Link from 'next/link';
+import Image from 'next/image';
+
 import 'bootstrap/dist/css/bootstrap.css';
 import styles from '../../styles/Nav.module.css';
 
@@ -30,16 +33,16 @@ const Navigation = () => {
   ]
 
   return (
-      <Navbar bg="light" expand={false}>
+      <Navbar className='navbar' bg="light" expand={false}>
         <Container>
-          <Navbar.Brand href="/"><img className={styles['logo-nav']} src='../../images/logoname.webp' alt=""></img></Navbar.Brand>
-          <Navbar.Toggle className={styles['navbar-toggler']} aria-controls="offcanvasNavbar" />
+          <Navbar.Brand href="/" className={styles['logo-nav']} alt='Logo image link to home'><Image src='/images/logoname.webp' width={100} height={50} alt="Wild Beginnings logo for navigation" /></Navbar.Brand>
+          <Navbar.Toggle className={styles['navbar-toggler']} aria-controls="offcanvasNavbar" alt='Mobile navigation slide out' />
           <Nav
             className={styles['desktop_links']}
             style={{ maxHeight: '100px' }}
           >
             {
-              NavLink.map(navLink => <Nav.Link className={styles['nav-link']} href={navLink?.link} key={navLink?.name}>{navLink?.name}</Nav.Link>)
+              NavLink.map(navLink => <Nav.Link className={styles['nav-link']} href={navLink?.link} key={navLink?.name} alt={navLink?.name}>{navLink?.name}</Nav.Link>)
             }
           </Nav>
 
@@ -55,7 +58,7 @@ const Navigation = () => {
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 {
-                  NavLink.map(navLink => <Nav.Link className={styles['nav-link']} href={navLink?.link} key={navLink?.name}>{navLink?.name}</Nav.Link>)
+                  NavLink.map(navLink => <Nav.Link className={styles['nav-link']} href={navLink?.link} key={navLink?.name} alt={navLink?.name}>{navLink?.name}</Nav.Link>)
                 }
               </Nav>
             </Offcanvas.Body>

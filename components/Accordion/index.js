@@ -32,7 +32,7 @@ const ServiceAccordion = () => {
                     <br />
                     This package will include everything in my birth doula package and everything in GM Studios’ Honey Package.
                     <br />
-                    You can see more info about her, her work and typical pricing at <a href='https://www.gmstudiosok.com'>https://www.gmstudiosok.com</a>
+                    You can see more info about her, her work and typical pricing at <a href='https://www.gmstudiosok.com' alt='link to GM Studio photography'>https://www.gmstudiosok.com</a>
                     <br />
                     Standard price $1800, cash price $1700
                 </Accordion.Body>
@@ -111,14 +111,14 @@ const ServiceAccordion = () => {
                 <Accordion.Header>+ Additional Support</Accordion.Header>
                 <Accordion.Body>
                 <div>
-                <h4>Prenatal</h4>
+                <h3>Prenatal</h3>
                     Some families wish to have additional prenatal meetings to discuss topics more in depth, build rapport, etc.
                     To accommodate this need I offer additional prenatal appointments booked individually.
                     <br />
                     Standard price $125, cash price $100
                 </div>
                 <div className={styles['section-container-two']}>
-                <h4>Postpartum</h4>
+                <h3>Postpartum</h3>
                     I offer postpartum doula services on a case by case situation based on client needs and my availability. 
                     These are an hourly rate service with a minimum of 3 consecutive hours to book.
                     <br/>
