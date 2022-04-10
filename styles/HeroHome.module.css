@@ -4,8 +4,9 @@
   z-index: 150;
 }
 
-.homepage-logo_container > span {
-  position: relative;
+.homepage-logo_container > img {
+  min-height: 90%;
+  min-width: 90%;
 
 }
 

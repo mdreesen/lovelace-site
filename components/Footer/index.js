@@ -1,9 +1,9 @@
-import styles from '../../components/Footer';
+import styles from '../../styles/Footer.module.css';
 
 function Footer() {
 
     return (
-            <div className={styles['footer position-static']}>
+            <div className={styles['footer']}>
                 <div className={styles['footer-text']}>
                         <p className={styles['footer-left']}>Wild Beginnings Birth // (405) 501-9515 // doulabrianna@gmail.com</p>
 
