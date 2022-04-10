@@ -12,8 +12,8 @@ export default function HeroHome(props) {
                         className={styles['homepage-logo']}
                         src="/images/logo.webp"
                         alt="Wild Beginnings Logo"
-                        width={500}
-                        height={500}
+                        width={823}
+                        height={881}
                     />
                 </div>
                 <Parallax className={styles['react-parallax']} bgImage={`/images/${props.heroImage}.webp`} alt={props.alt} strength={200}></Parallax>

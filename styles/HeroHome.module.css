@@ -4,6 +4,11 @@
   z-index: 150;
 }
 
+.homepage-logo_container > span {
+  position: relative;
+
+}
+
 .homepage-logo {
   width: 800px;
   filter: brightness(.5);
@@ -40,18 +45,18 @@
 
 .react-parallax {
   height: 100%;
-  width: 50%;
+  width: 40%;
 }
 
 .react-parallax > img {
   height: 100vh !important;
-  width: 50%;
+  width: 40%;
   object-fit: cover;
 }
 
 .homepage_parallax {
   height: 100vh;
-  width: 50%;
+  width: 40%;
 }
 .react-parallax-bgimage {
   height: 100vh !important;
@@ -76,7 +81,7 @@
   justify-content: center;
   text-align: center;
   /* padding-top: 56px; */
-  height: 100vh;
+  height: 94vh;
 }
 
 .logo-image-wrapper {
@@ -95,7 +100,7 @@
 
 @media only screen and (max-width: 1327px) {
   .homepage-logo_container {
-    width: 70%;
+    width: 60%;
     justify-content: center;
     z-index: 150;
   }
