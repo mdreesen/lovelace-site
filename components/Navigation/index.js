@@ -35,7 +35,7 @@ const Navigation = () => {
   return (
       <Navbar className='navbar' bg="light" expand={false}>
         <Container>
-          <Navbar.Brand href="/" className={styles['logo-nav']} alt='Logo image link to home'><Image src='/images/logoname.webp' width={100} height={50} alt="Wild Beginnings logo for navigation" /></Navbar.Brand>
+          <Navbar.Brand href="/" className={styles['logo-nav']} alt='Logo image link to home'><Image src='/images/logoname.webp' width={938} height={493} alt="Wild Beginnings logo for navigation" /></Navbar.Brand>
           <Navbar.Toggle className={styles['navbar-toggler']} aria-controls="offcanvasNavbar" alt='Mobile navigation slide out' />
           <Nav
             className={styles['desktop_links']}

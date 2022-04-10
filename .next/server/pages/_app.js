@@ -109,8 +109,8 @@ const Navigation = ()=>{
                     alt: "Logo image link to home",
                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_image["default"], {
                         src: "/images/logoname.webp",
-                        width: 100,
-                        height: 50,
+                        width: 938,
+                        height: 493,
                         alt: "Wild Beginnings logo for navigation"
                     })
                 }),

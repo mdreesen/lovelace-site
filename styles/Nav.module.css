@@ -15,10 +15,11 @@
     display: none;
 }
 
-.navbar > .logo-nav {
-  position: absolute;
+.logo-nav {
   width: 12vh;
-  top: 1px;
+  top: -10px;
+  height: 42px;
+  position: relative;
 }
 
 .nav-link {
