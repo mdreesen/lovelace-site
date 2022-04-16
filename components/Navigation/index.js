@@ -34,7 +34,7 @@ const Navigation = () => {
       <Navbar className='navbar' bg="light" expand={false}>
         <Container>
           <Navbar.Brand href="/" className={styles['logo-nav']} alt='Logo image link to home'><Image src='/images/logoname.webp' width={938} height={493} alt="Wild Beginnings logo for navigation" /></Navbar.Brand>
-          <Navbar.Toggle className={styles['navbar-toggler']} aria-controls="offcanvasNavbar" />
+          <Navbar.Toggle className={styles['navbar-toggler']} aria-controls="offcanvasNavbar" aria-label="Toggle collapsible navigation"/>
           <Nav
             className={styles['desktop_links']}
             style={{ maxHeight: '100px' }}
@@ -50,6 +50,7 @@ const Navigation = () => {
             aria-labelledby="offcanvasNavbarLabel"
             placement="end"
             className={styles['navbar-toggler']}
+            aria-label="Toggle collapsible navigation"
           >
             <Offcanvas.Header closeButton>
             </Offcanvas.Header>

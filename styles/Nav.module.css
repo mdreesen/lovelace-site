@@ -40,6 +40,7 @@
 @media only screen and (max-width: 830px) {
   .navbar-toggler {
       display: block;
+      border: none;
   }
   .desktop_links {
       display: none;
