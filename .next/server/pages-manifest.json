@@ -1,11 +1,8 @@
 {
-  "/about": "pages/about.html",
-  "/contact": "pages/contact.html",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/services": "pages/services.html",
   "/_error": "pages/_error.js",
-  "/api/hello": "pages/api/hello.js",
-  "/": "pages/index.html",
-  "/404": "pages/404.html"
+  "/about": "pages/about.js",
+  "/contact": "pages/contact.js",
+  "/": "pages/index.js"
 }

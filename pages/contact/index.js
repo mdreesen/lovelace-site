@@ -27,10 +27,10 @@ export default function About() {
 
                     </div>
                     <div className={styles['icon-container']}>
-                        <div className={styles['info']}><a className={styles['icon']} href='tel:+1-405.501.9515' alt='Call Wild Beginnings on contact page'><i className="fas fa-mobile-alt fa-2x" /></a><span className='icon_detail'>405.501.9515</span></div>
-                        <div className={styles['info']}><a className={styles['icon']} href="mailto: doulabrianna@gmail.com" alt='Email Wild Beginnings on contact page'><i className="far fa-envelope fa-2x" /></a><span className='icon_detail'>doulabrianna@gmail.com</span></div>
-                        <div className={styles['info']}><a className={styles['icon']} href='https://www.facebook.com/wildbeginningsdoulacare' alt='Facebook link on contact page'><i className="fab fa-facebook fa-2x" /></a><span className='icon_detail'>Wild Beginnings Birth</span></div>
-                        <div className={styles['info']}><a className={styles['icon']} href='https://www.instagram.com/doulabrianna/' alt='Instagram link on contact page'><i className="fab fa-instagram fa-2x" /></a><span className='icon_detail'>@doulabrianna</span></div>
+                        <div className={styles['info']}><a className={styles['icon']} href='tel:+1-405.501.9515' alt='Call Wild Beginnings on contact page'><i className="fas fa-mobile-alt fa-2x" />405.501.9515</a></div>
+                        <div className={styles['info']}><a className={styles['icon']} href="mailto: doulabrianna@gmail.com" alt='Email Wild Beginnings on contact page'><i className="far fa-envelope fa-2x" />doulabrianna@gmail.com</a></div>
+                        <div className={styles['info']}><a className={styles['icon']} href='https://www.facebook.com/wildbeginningsdoulacare' alt='Facebook link on contact page'><i className="fab fa-facebook fa-2x" />Wild Beginnings Birth</a></div>
+                        <div className={styles['info']}><a className={styles['icon']} href='https://www.instagram.com/doulabrianna/' alt='Instagram link on contact page'><i className="fab fa-instagram fa-2x" />@doulabrianna</a></div>
                     </div>
                 </section>
         </div>

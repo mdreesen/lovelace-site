@@ -9,8 +9,8 @@ function Footer() {
                 </div>
                 <div className={styles['icon-right']}>
                     <div className={styles['icon-container-footer']}>
-                        <div><a href='https://www.facebook.com/wildbeginningsdoulacare' alt='Wild Beginnings Facebook icon'><i className="fab fa-facebook fa-2x" /></a></div>
-                        <div><a href='https://www.instagram.com/doulabrianna/' alt='Wild beginnings instagram icon'><i className="fab fa-instagram fa-2x" /></a></div>
+                        <div><a className={styles['icon']} href='https://www.facebook.com/wildbeginningsdoulacare' alt='Wild Beginnings Facebook icon'><i className="fab fa-facebook fa-2x" />facebook</a></div>
+                        <div><a className={styles['icon']} href='https://www.instagram.com/doulabrianna/' alt='Wild beginnings instagram icon'><i className="fab fa-instagram fa-2x" />instagram</a></div>
                     </div>
                 </div>
             </div>

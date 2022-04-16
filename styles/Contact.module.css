@@ -7,15 +7,22 @@
 
 .info {
   display: grid;
-  grid-template-columns: 50px 190px;
+  grid-template-columns: auto;
   grid-template-rows: 40px;
+  justify-items: left;
 }
 
 .icon {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  grid-template-columns: 40px auto;
+  justify-items: center;
+}
+
+.icon:hover {
+  color: #013240;
 }
 
 .icon_detail {
@@ -32,25 +39,12 @@
   min-width: 280px;
   vertical-align: text-bottom;
   text-decoration: none;
-  /* text-align: right; */
-  transition: 0.4s;
 }
 .icon-container span {
   font-size: 20px;
   color: black;
   transition: 0.4s;
   text-decoration: none;
-}
-
-.icon-container i {
-  margin-right: 10px;
-  color: black;
-  transition: 0.4s;
-}
-.icon-container i:hover {
-  margin-right: 10px;
-  color: white;
-  transition: 0.4s;
 }
 
 .contact-content-container {
