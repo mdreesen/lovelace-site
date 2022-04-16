@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-// import Link from 'next/link';
+import Link from 'next/link';
 import Image from 'next/image';
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -40,7 +40,7 @@ const Navigation = () => {
             style={{ maxHeight: '100px' }}
           >
             {
-              NavLink.map(navLink => <Nav.Link className={styles['nav-link']} href={navLink?.link} key={navLink?.name} alt={navLink?.name}>{navLink?.name}</Nav.Link>)
+              NavLink.map(navLink => <Link className={styles['nav-link']} href={navLink?.link} key={navLink?.name} alt={navLink?.name}>{navLink?.name}</Link>)
             }
           </Nav>
 

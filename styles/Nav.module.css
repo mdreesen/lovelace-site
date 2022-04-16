@@ -9,6 +9,12 @@
 }
 .desktop_links {
   flex-direction: row;
+  column-gap: 10px;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.desktop_links > a:hover {
+  color: black;
 }
 
 .navbar-toggler {
@@ -24,7 +30,7 @@
 
 .nav-link {
   margin: 0 5px 0 5px;
-  color: black;
+  color: rgba(0, 0, 0, 0.55);
 }
 
 .nav-link:hover {
