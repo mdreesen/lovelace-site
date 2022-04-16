@@ -21,6 +21,10 @@
   justify-items: center;
 }
 
+.contact-icon {
+  width: 1.6rem;  
+}
+
 .icon:hover {
   color: #013240;
 }

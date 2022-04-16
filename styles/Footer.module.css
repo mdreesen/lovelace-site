@@ -20,6 +20,10 @@
   justify-items: center;
 }
 
+.footer-icon {
+  width: 1.5rem;
+}
+
 .footer-left {
   color: black;
   float: left;
