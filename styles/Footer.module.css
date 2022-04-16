@@ -13,9 +13,11 @@
 }
 
 .icon {
-  display: flex;
+  display: grid;
   align-items: center;
   margin: 2px;
+  grid-template-columns: 37px 76px;
+  justify-items: center;
 }
 
 .footer-left {
