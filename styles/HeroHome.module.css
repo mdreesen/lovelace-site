@@ -5,9 +5,10 @@
 }
 
 .homepage-logo_container > img {
-  min-height: 90%;
+  /* min-height: 90%; */
   min-width: 90%;
-
+  object-fit: cover;
+  height: 100%;
 }
 
 .homepage-logo {

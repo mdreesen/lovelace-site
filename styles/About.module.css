@@ -126,6 +126,10 @@ text-align: left;
   margin-bottom: 23px;
 }
 
+.family-image-container > img {
+  object-fit: cover;
+}
+
 .family-image {
-  width: 50%;
+  width: 85%;
 }
