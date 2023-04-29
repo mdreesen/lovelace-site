@@ -22,10 +22,10 @@ const ServiceAccordion = () => {
                     <br />
                     - 24/7 on call support starting at 38 weeks
                     <br />
-                    Standard Price $1100, cash price $1000
+                    Starting at $1200
                 </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="1">
+            {/* <Accordion.Item eventKey="1">
                 <Accordion.Header>+ Birth Doula & Photography</Accordion.Header>
                 <Accordion.Body>
                     This is a special package in collaboration with GM Studios.
@@ -36,7 +36,7 @@ const ServiceAccordion = () => {
                     <br />
                     Standard price $1800, cash price $1700
                 </Accordion.Body>
-            </Accordion.Item>
+            </Accordion.Item> */}
             <Accordion.Item eventKey="3">
                 <Accordion.Header>+ Childbirth Education</Accordion.Header>
                 <Accordion.Body>
@@ -66,10 +66,12 @@ const ServiceAccordion = () => {
                     <br />
                     - When and how to seek further support
                     <br />
-                    Standard price $115, cash price $100 (available in group and individuals settings)
+                    Consultation $95
+                    <br />
+                    Follow up appointment $60
                 </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="6">
+            {/* <Accordion.Item eventKey="6">
                 <Accordion.Header>+ Postpartum Lactation Support</Accordion.Header>
                 <Accordion.Body>
                     This service provides assessment &amp; guidance or referrals for mothers needing lactation help. This is a starting point to evaluate what obstacles you and your child are encountering.
@@ -80,7 +82,7 @@ const ServiceAccordion = () => {
                     <br />
                     Starting at $40 per hour
                 </Accordion.Body>
-            </Accordion.Item>
+            </Accordion.Item> */}
             <Accordion.Item eventKey="7">
                 <Accordion.Header>+ Babywearing Education</Accordion.Header>
                 <Accordion.Body>
@@ -110,20 +112,18 @@ const ServiceAccordion = () => {
             <Accordion.Item eventKey="9">
                 <Accordion.Header>+ Additional Support</Accordion.Header>
                 <Accordion.Body>
-                <div>
-                <h3>Prenatal</h3>
-                    Some families wish to have additional prenatal meetings to discuss topics more in depth, build rapport, etc.
-                    To accommodate this need I offer additional prenatal appointments booked individually.
-                    <br />
-                    Standard price $125, cash price $100
-                </div>
-                <div className={styles['section-container-two']}>
-                <h3>Postpartum</h3>
-                    I offer postpartum doula services on a case by case situation based on client needs and my availability. 
-                    These are an hourly rate service with a minimum of 3 consecutive hours to book.
-                    <br/>
-                    Standard price $35/hr, cash price $30/hr
-                </div>
+                    <div>
+                        <h3>Prenatal</h3>
+                        Some families wish to have additional prenatal meetings to discuss topics more in depth, build rapport, etc.
+                        To accommodate this need I offer additional prenatal appointments booked individually.
+                        <br />
+                        $125/visit
+                    </div>
+                    <div className={styles['section-container-two']}>
+                        <h3>Postpartum</h3>
+                        I provide postpartum concierge services through Thrive Mama Collective.
+                        Please call 405-356-MAMA to inquire about packages.
+                    </div>
                 </Accordion.Body>
             </Accordion.Item>
         </Accordion>

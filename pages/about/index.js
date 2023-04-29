@@ -3,13 +3,13 @@ import Image from 'next/image'
 import Hero from '../../components/Hero';
 import styles from '../../styles/About.module.css';
 
+import { motion } from "framer-motion"
+
 export default function About() {
 
     const titleArr = [
-        'Doula Certificate',
-        'Lactation Specialist Certificate',
-        'Baby Wearing Educator Certificate',
-        'Placenta Specialist Certificate'
+        'Certified Birth & Postpartum Doula',
+        'Certified Breastfeeding Specialist'
     ];
 
     return (
