@@ -4,8 +4,4 @@ const nextConfig = {
   productionBrowserSourceMaps: true,
 }
 
-module.exports = (phase, defaultConfig) => {
-  return withBundleAnalyzer(defaultConfig)
-}
-
 module.exports = nextConfig
