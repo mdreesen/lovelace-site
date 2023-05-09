@@ -2,6 +2,37 @@ exports.id = 675;
 exports.ids = [675];
 exports.modules = {
 
+/***/ 7273:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+var __webpack_unused_export__;
+
+__webpack_unused_export__ = ({
+    value: true
+});
+Object.defineProperty(exports, "Z", ({
+    enumerable: true,
+    get: function() {
+        return _objectWithoutPropertiesLoose;
+    }
+}));
+function _objectWithoutPropertiesLoose(source, excluded) {
+    if (source == null) return {};
+    var target = {};
+    var sourceKeys = Object.keys(source);
+    var key, i;
+    for(i = 0; i < sourceKeys.length; i++){
+        key = sourceKeys[i];
+        if (excluded.indexOf(key) >= 0) continue;
+        target[key] = source[key];
+    }
+    return target;
+}
+
+
+/***/ }),
+
 /***/ 3740:
 /***/ ((module, exports, __webpack_require__) => {
 
@@ -11,23 +42,18 @@ exports.modules = {
 Object.defineProperty(exports, "__esModule", ({
     value: true
 }));
-Object.defineProperty(exports, "default", ({
-    enumerable: true,
-    get: function() {
-        return _default;
-    }
-}));
-const _extends = __webpack_require__(2741);
-const _interop_require_default = __webpack_require__(167);
-const _interop_require_wildcard = __webpack_require__(8760);
-const _object_without_properties_loose = __webpack_require__(4547);
-const _react = /*#__PURE__*/ _interop_require_wildcard._(__webpack_require__(6689));
-const _head = /*#__PURE__*/ _interop_require_default._(__webpack_require__(2636));
-const _imageblursvg = __webpack_require__(4486);
-const _imageconfig = __webpack_require__(5843);
-const _imageconfigcontext = __webpack_require__(744);
-const _warnonce = __webpack_require__(618);
-const _imageloader = /*#__PURE__*/ _interop_require_default._(__webpack_require__(9552));
+exports["default"] = void 0;
+var _extends = (__webpack_require__(6495)/* ["default"] */ .Z);
+var _interop_require_default = (__webpack_require__(2648)/* ["default"] */ .Z);
+var _interop_require_wildcard = (__webpack_require__(1598)/* ["default"] */ .Z);
+var _object_without_properties_loose = (__webpack_require__(7273)/* ["default"] */ .Z);
+var _react = _interop_require_wildcard(__webpack_require__(6689));
+var _head = _interop_require_default(__webpack_require__(2636));
+var _imageBlurSvg = __webpack_require__(4486);
+var _imageConfig = __webpack_require__(5843);
+var _imageConfigContext = __webpack_require__(744);
+var _warnOnce = __webpack_require__(618);
+var _imageLoader = _interop_require_default(__webpack_require__(9552));
 const configEnv = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false};
 const allImgs = new Map();
 let perfObserver;
@@ -164,7 +190,7 @@ function handleLoading(img, src, placeholder, onLoadRef, onLoadingCompleteRef, s
             });
             let prevented = false;
             let stopped = false;
-            onLoadRef.current(_extends._({}, event, {
+            onLoadRef.current(_extends({}, event, {
                 nativeEvent: event,
                 currentTarget: img,
                 target: img,
@@ -187,26 +213,8 @@ function handleLoading(img, src, placeholder, onLoadRef, onLoadingCompleteRef, s
         if (false) {}
     });
 }
-function getDynamicProps(fetchPriority) {
-    const [majorStr, minorStr] = _react.version.split(".");
-    const major = parseInt(majorStr, 10);
-    const minor = parseInt(minorStr, 10);
-    if (major > 18 || major === 18 && minor >= 3) {
-        // In React 18.3.0 or newer, we must use camelCase
-        // prop to avoid "Warning: Invalid DOM property".
-        // See https://github.com/facebook/react/pull/25927
-        return {
-            fetchPriority
-        };
-    }
-    // In React 18.2.0 or older, we must use lowercase prop
-    // to avoid "Warning: Invalid DOM property".
-    return {
-        fetchpriority: fetchPriority
-    };
-}
-const ImageElement = /*#__PURE__*/ (0, _react.forwardRef)((_param, forwardedRef)=>{
-    var { imgAttributes , heightInt , widthInt , qualityInt , className , imgStyle , blurStyle , isLazy , fetchPriority , fill , placeholder , loading , srcString , config , unoptimized , loader , onLoadRef , onLoadingCompleteRef , setBlurComplete , setShowAltText , onLoad , onError  } = _param, rest = _object_without_properties_loose._(_param, [
+const ImageElement = /*#__PURE__*/ (0, _react).forwardRef((_param, forwardedRef)=>{
+    var { imgAttributes , heightInt , widthInt , qualityInt , className , imgStyle , blurStyle , isLazy , fill , placeholder , loading , srcString , config , unoptimized , loader , onLoadRef , onLoadingCompleteRef , setBlurComplete , setShowAltText , onLoad , onError  } = _param, rest = _object_without_properties_loose(_param, [
         "imgAttributes",
         "heightInt",
         "widthInt",
@@ -215,7 +223,6 @@ const ImageElement = /*#__PURE__*/ (0, _react.forwardRef)((_param, forwardedRef)
         "imgStyle",
         "blurStyle",
         "isLazy",
-        "fetchPriority",
         "fill",
         "placeholder",
         "loading",
@@ -231,16 +238,17 @@ const ImageElement = /*#__PURE__*/ (0, _react.forwardRef)((_param, forwardedRef)
         "onError"
     ]);
     loading = isLazy ? "lazy" : loading;
-    return /*#__PURE__*/ _react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/ _react.default.createElement("img", _extends._({}, rest, getDynamicProps(fetchPriority), {
+    return /*#__PURE__*/ _react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/ _react.default.createElement("img", Object.assign({}, rest, {
+        // @ts-ignore - TODO: upgrade to `@types/react@17`
         loading: loading,
         width: widthInt,
         height: heightInt,
         decoding: "async",
         "data-nimg": fill ? "fill" : "1",
         className: className,
-        style: _extends._({}, imgStyle, blurStyle)
+        style: _extends({}, imgStyle, blurStyle)
     }, imgAttributes, {
-        ref: (0, _react.useCallback)((img)=>{
+        ref: (0, _react).useCallback((img)=>{
             if (forwardedRef) {
                 if (typeof forwardedRef === "function") forwardedRef(img);
                 else if (typeof forwardedRef === "object") {
@@ -289,8 +297,8 @@ const ImageElement = /*#__PURE__*/ (0, _react.forwardRef)((_param, forwardedRef)
         }
     })));
 });
-const Image = /*#__PURE__*/ (0, _react.forwardRef)((_param, forwardedRef)=>{
-    var { src , sizes , unoptimized =false , priority =false , loading , className , quality , width , height , fill , style , onLoad , onLoadingComplete , placeholder ="empty" , blurDataURL , fetchPriority , layout , objectFit , objectPosition , lazyBoundary , lazyRoot  } = _param, all = _object_without_properties_loose._(_param, [
+const Image = /*#__PURE__*/ (0, _react).forwardRef((_param, forwardedRef)=>{
+    var { src , sizes , unoptimized =false , priority =false , loading , className , quality , width , height , fill , style , onLoad , onLoadingComplete , placeholder ="empty" , blurDataURL , layout , objectFit , objectPosition , lazyBoundary , lazyRoot  } = _param, all = _object_without_properties_loose(_param, [
         "src",
         "sizes",
         "unoptimized",
@@ -306,22 +314,21 @@ const Image = /*#__PURE__*/ (0, _react.forwardRef)((_param, forwardedRef)=>{
         "onLoadingComplete",
         "placeholder",
         "blurDataURL",
-        "fetchPriority",
         "layout",
         "objectFit",
         "objectPosition",
         "lazyBoundary",
         "lazyRoot"
     ]);
-    const configContext = (0, _react.useContext)(_imageconfigcontext.ImageConfigContext);
-    const config = (0, _react.useMemo)(()=>{
-        const c = configEnv || configContext || _imageconfig.imageConfigDefault;
+    const configContext = (0, _react).useContext(_imageConfigContext.ImageConfigContext);
+    const config = (0, _react).useMemo(()=>{
+        const c = configEnv || configContext || _imageConfig.imageConfigDefault;
         const allSizes = [
             ...c.deviceSizes,
             ...c.imageSizes
         ].sort((a, b)=>a - b);
         const deviceSizes = c.deviceSizes.sort((a, b)=>a - b);
-        return _extends._({}, c, {
+        return _extends({}, c, {
             allSizes,
             deviceSizes
         });
@@ -329,7 +336,7 @@ const Image = /*#__PURE__*/ (0, _react.forwardRef)((_param, forwardedRef)=>{
         configContext
     ]);
     let rest = all;
-    let loader = rest.loader || _imageloader.default;
+    let loader = rest.loader || _imageLoader.default;
     // Remove property so it's not spread on <img> element
     delete rest.loader;
     // This special value indicates that the user
@@ -346,7 +353,7 @@ const Image = /*#__PURE__*/ (0, _react.forwardRef)((_param, forwardedRef)=>{
         const customImageLoader = loader;
         var _tmp;
         _tmp = (obj)=>{
-            const { config: _  } = obj, opts = _object_without_properties_loose._(obj, [
+            const { config: _  } = obj, opts = _object_without_properties_loose(obj, [
                 "config"
             ]);
             return customImageLoader(opts);
@@ -372,7 +379,7 @@ const Image = /*#__PURE__*/ (0, _react.forwardRef)((_param, forwardedRef)=>{
         };
         const layoutStyle = layoutToStyle[layout];
         if (layoutStyle) {
-            style = _extends._({}, style, layoutStyle);
+            style = _extends({}, style, layoutStyle);
         }
         const layoutSizes = layoutToSizes[layout];
         if (layoutSizes && !sizes) {
@@ -411,7 +418,7 @@ const Image = /*#__PURE__*/ (0, _react.forwardRef)((_param, forwardedRef)=>{
     }
     src = typeof src === "string" ? src : staticSrc;
     let isLazy = !priority && (loading === "lazy" || typeof loading === "undefined");
-    if (!src || src.startsWith("data:") || src.startsWith("blob:")) {
+    if (src.startsWith("data:") || src.startsWith("blob:")) {
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs
         unoptimized = true;
         isLazy = false;
@@ -424,11 +431,8 @@ const Image = /*#__PURE__*/ (0, _react.forwardRef)((_param, forwardedRef)=>{
         // through the built-in Image Optimization API.
         unoptimized = true;
     }
-    if (priority) {
-        fetchPriority = "high";
-    }
-    const [blurComplete, setBlurComplete] = (0, _react.useState)(false);
-    const [showAltText, setShowAltText] = (0, _react.useState)(false);
+    const [blurComplete, setBlurComplete] = (0, _react).useState(false);
+    const [showAltText, setShowAltText] = (0, _react).useState(false);
     const qualityInt = getInt(quality);
     if (false) {}
     const imgStyle = Object.assign(fill ? {
@@ -448,7 +452,7 @@ const Image = /*#__PURE__*/ (0, _react.forwardRef)((_param, forwardedRef)=>{
         backgroundSize: imgStyle.objectFit || "cover",
         backgroundPosition: imgStyle.objectPosition || "50% 50%",
         backgroundRepeat: "no-repeat",
-        backgroundImage: `url("data:image/svg+xml;charset=utf-8,${(0, _imageblursvg.getImageBlurSvg)({
+        backgroundImage: `url("data:image/svg+xml;charset=utf-8,${(0, _imageBlurSvg).getImageBlurSvg({
             widthInt,
             heightInt,
             blurWidth,
@@ -469,19 +473,25 @@ const Image = /*#__PURE__*/ (0, _react.forwardRef)((_param, forwardedRef)=>{
     });
     let srcString = src;
     if (false) {}
-    const onLoadRef = (0, _react.useRef)(onLoad);
-    (0, _react.useEffect)(()=>{
+    const linkProps = {
+        // @ts-expect-error upgrade react types to react 18
+        imageSrcSet: imgAttributes.srcSet,
+        imageSizes: imgAttributes.sizes,
+        crossOrigin: rest.crossOrigin
+    };
+    const onLoadRef = (0, _react).useRef(onLoad);
+    (0, _react).useEffect(()=>{
         onLoadRef.current = onLoad;
     }, [
         onLoad
     ]);
-    const onLoadingCompleteRef = (0, _react.useRef)(onLoadingComplete);
-    (0, _react.useEffect)(()=>{
+    const onLoadingCompleteRef = (0, _react).useRef(onLoadingComplete);
+    (0, _react).useEffect(()=>{
         onLoadingCompleteRef.current = onLoadingComplete;
     }, [
         onLoadingComplete
     ]);
-    const imgElementArgs = _extends._({
+    const imgElementArgs = _extends({
         isLazy,
         imgAttributes,
         heightInt,
@@ -492,7 +502,6 @@ const Image = /*#__PURE__*/ (0, _react.forwardRef)((_param, forwardedRef)=>{
         blurStyle,
         loading,
         config,
-        fetchPriority,
         fill,
         unoptimized,
         placeholder,
@@ -503,23 +512,21 @@ const Image = /*#__PURE__*/ (0, _react.forwardRef)((_param, forwardedRef)=>{
         setBlurComplete,
         setShowAltText
     }, rest);
-    return /*#__PURE__*/ _react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/ _react.default.createElement(ImageElement, _extends._({}, imgElementArgs, {
+    return /*#__PURE__*/ _react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/ _react.default.createElement(ImageElement, Object.assign({}, imgElementArgs, {
         ref: forwardedRef
     })), priority ? // for browsers that do not support `imagesrcset`, and in those cases
     // it would likely cause the incorrect image to be preloaded.
     //
     // https://html.spec.whatwg.org/multipage/semantics.html#attr-link-imagesrcset
-    /*#__PURE__*/ _react.default.createElement(_head.default, null, /*#__PURE__*/ _react.default.createElement("link", _extends._({
+    /*#__PURE__*/ _react.default.createElement(_head.default, null, /*#__PURE__*/ _react.default.createElement("link", Object.assign({
         key: "__nimg-" + imgAttributes.src + imgAttributes.srcSet + imgAttributes.sizes,
         rel: "preload",
         as: "image",
-        href: imgAttributes.srcSet ? undefined : imgAttributes.src,
-        imageSrcSet: imgAttributes.srcSet,
-        imageSizes: imgAttributes.sizes,
-        crossOrigin: rest.crossOrigin
-    }, getDynamicProps(fetchPriority)))) : null);
+        href: imgAttributes.srcSet ? undefined : imgAttributes.src
+    }, linkProps))) : null);
 });
-const _default = Image;
+var _default = Image;
+exports["default"] = _default;
 if ((typeof exports.default === "function" || typeof exports.default === "object" && exports.default !== null) && typeof exports.default.__esModule === "undefined") {
     Object.defineProperty(exports.default, "__esModule", {
         value: true
@@ -535,32 +542,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__(3740)
-
-
-/***/ }),
-
-/***/ 4547:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-
-
-exports._ = exports._object_without_properties_loose = _object_without_properties_loose;
-function _object_without_properties_loose(source, excluded) {
-    if (source == null) return {};
-
-    var target = {};
-    var sourceKeys = Object.keys(source);
-    var key, i;
-
-    for (i = 0; i < sourceKeys.length; i++) {
-        key = sourceKeys[i];
-        if (excluded.indexOf(key) >= 0) continue;
-        target[key] = source[key];
-    }
-
-    return target;
-}
 
 
 /***/ })

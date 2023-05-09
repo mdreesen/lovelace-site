@@ -247,12 +247,14 @@ const Navigation = ()=>{
                     style: {
                         maxHeight: "100px"
                     },
-                    children: NavLink.map((navLink)=>/*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                    children: NavLink.map((navLink)=>{
+                        /*#__PURE__*/ return jsx_runtime_.jsx((link_default()), {
                             className: (Nav_module_default())["nav-link"],
-                            href: navLink?.link,
-                            alt: navLink?.name,
-                            children: navLink?.name
-                        }, navLink?.name))
+                            href: navLink === null || navLink === void 0 ? void 0 : navLink.link,
+                            alt: navLink === null || navLink === void 0 ? void 0 : navLink.name,
+                            children: navLink === null || navLink === void 0 ? void 0 : navLink.name
+                        }, navLink === null || navLink === void 0 ? void 0 : navLink.name);
+                    })
                 }),
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)((Navbar_default()).Offcanvas, {
                     id: "offcanvasNavbar",
@@ -267,12 +269,14 @@ const Navigation = ()=>{
                         /*#__PURE__*/ jsx_runtime_.jsx((Offcanvas_default()).Body, {
                             children: /*#__PURE__*/ jsx_runtime_.jsx((Nav_default()), {
                                 className: "justify-content-end flex-grow-1 pe-3",
-                                children: NavLink.map((navLink)=>/*#__PURE__*/ jsx_runtime_.jsx((Nav_default()).Link, {
+                                children: NavLink.map((navLink)=>{
+                                    /*#__PURE__*/ return jsx_runtime_.jsx((Nav_default()).Link, {
                                         className: (Nav_module_default())["nav-link"],
-                                        href: navLink?.link,
-                                        alt: navLink?.name,
-                                        children: navLink?.name
-                                    }, navLink?.name))
+                                        href: navLink === null || navLink === void 0 ? void 0 : navLink.link,
+                                        alt: navLink === null || navLink === void 0 ? void 0 : navLink.name,
+                                        children: navLink === null || navLink === void 0 ? void 0 : navLink.name
+                                    }, navLink === null || navLink === void 0 ? void 0 : navLink.name);
+                                })
                             })
                         })
                     ]
