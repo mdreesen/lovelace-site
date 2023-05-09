@@ -21,6 +21,10 @@
     display: none;
 }
 
+.logo-nav {
+  width: 12vh;
+}
+
 .logo-nav > img {
   width: 12vh;
   top: 2px;
