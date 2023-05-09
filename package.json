@@ -17,7 +17,6 @@
     "@netlify/plugin-nextjs": "^4.36.0",
     "@next/bundle-analyzer": "^12.3.4",
     "bootstrap": "^5.2.3",
-    "buffer": "^6.0.3",
     "framer-motion": "^10.12.4",
     "graceful-fs": "^4.2.11",
     "next": "^13.3.1",
