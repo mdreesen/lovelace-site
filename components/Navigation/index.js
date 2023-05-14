@@ -6,7 +6,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import Link from 'next/link';
 import Image from 'next/image';
 
-// import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import styles from '../../styles/Nav.module.css';
 
 const Navigation = () => {
