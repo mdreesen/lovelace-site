@@ -21,6 +21,7 @@
     "next": "12.1.4",
     "react": "18.0.0",
     "react-bootstrap": "^2.2.2",
+    "react-bootstrap-validation": "^0.1.11",
     "react-dom": "18.0.0",
     "react-parallax": "^3.3.0",
     "sharp": "^0.30.3"
