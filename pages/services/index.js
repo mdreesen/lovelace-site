@@ -23,7 +23,7 @@ export default function About() {
                         find care and assistance with perinatal services while respecting their autonomy.
                         Bundled packages are eligible for a discount. All services listed are available in-person, virtually or a combination of in-person and virtual visits for the same cost.
                     </p>
-                    <a href="https://thrivemamacollective.as.me/">
+                    <a href="https://thrivemamacollective.com/brianna-lovelace/">
                         <Button variant="dark">Book Now</Button>
                     </a>
 
