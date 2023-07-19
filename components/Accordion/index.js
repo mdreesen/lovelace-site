@@ -50,7 +50,7 @@ const ServiceAccordion = () => {
                     <br />
                     - Q&amp; A at the end of each class
                     <br />
-                    Standard price $140, cash price $125  (available in group &amp; individual settings)
+                    Starting at $140
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="5">
@@ -66,9 +66,7 @@ const ServiceAccordion = () => {
                     <br />
                     - When and how to seek further support
                     <br />
-                    Consultation $95
-                    <br />
-                    Follow up appointment $60
+                    Starting at $90
                 </Accordion.Body>
             </Accordion.Item>
             {/* <Accordion.Item eventKey="6">
